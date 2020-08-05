@@ -9,12 +9,10 @@ import SwiftUI
 
 struct HomeView: View {
     
-    @State private var currentText = ""
-    
     var cells: [Zodiac] = [
-        Zodiac(name: "ARIES", imageName: "illustration2", rangingDate: "..."),
-        Zodiac(name: "TAURUS", imageName: "illustration3", rangingDate: "..."),
-        Zodiac(name: "ARIES", imageName: "illustration2", rangingDate: "...")
+        Zodiac(name: "ARIES", imageName: "illustration2", rangingDate: "March 19 - April 21"),
+        Zodiac(name: "TAURUS", imageName: "illustration3", rangingDate: "March 19 - April 21"),
+        Zodiac(name: "ARIES", imageName: "illustration2", rangingDate: "March 19 - April 21")
     ]
     
     @State var selectedPage = 0
@@ -40,42 +38,40 @@ struct HomeView: View {
                         .frame(width: UIScreen.main.bounds.width, height: 376)
                         .tabViewStyle(PageTabViewStyle(indexDisplayMode: .never))
                         
-                        
-                        ZodiacDataCell(zodiac: cells[0])
+                        HStack(spacing: 64) {
+                            
+                            Button(action: {
+                                if selectedPage > 0 {
+                                    
+                                    withAnimation { selectedPage -= 1 }
+                                }
+                            }) {
+                                Image(systemName: "chevron.left")
+                                    .font(Font.system(.title2))
+                                    .foregroundColor(Color("PrimaryGrayWOpacity"))
+                            }
+                            
+                            // porque se llama automaticamente ¿?
+                            ZodiacDataCell(zodiac: cells[selectedPage])
+                            
+                            Button(action: {
+                                if selectedPage < 2 {
+                                    withAnimation { selectedPage += 1 }
+                                }
+                            }) {
+                                Image(systemName: "chevron.right")
+                                    .font(Font.system(.title2))
+                                    .foregroundColor(Color("PrimaryGrayWOpacity"))
+                            }
+                            
+                        }
                         
                     }
                     
                     VStack(alignment: .center, spacing: 24) {
                         
-                        HStack {
-                                        Button("<") { if selectedPage > 0 {
-                                            withAnimation { selectedPage -= 1 }
-                                        } }
-                                        Spacer().frame(width: 40)
-                                        Button(">") { if selectedPage < 2 {
-                                            withAnimation { selectedPage += 1 }
-                                        } }
-                                    }
-                        
-                        Button(action: {
-                            //accion que ha de llevar a cabo el boton
-                            print("BOTON PRINCIPAL")
-                        }) {
-
-                            RoundedRectangle(cornerRadius: 16, style: .continuous)
-                                .frame(width: 288.0, height: 46.0)
-                                .foregroundColor(Color("AccentColor"))
-                                .overlay(Text("Choose Aries")
-                                            .font(.headline)
-                                            .fontWeight(.semibold)
-                                            .foregroundColor(.white))
-                        }
-                        Button(action: {
-                            print("BOTON SECUNDARIO")
-                        }) {
-                            Text("Don't know your zodiac sign?")
-                                .font(.subheadline)
-                        }
+                        MainButton(zodiac: cells[selectedPage])
+                        SecondaryButton()
                     }
                 }
 //                .frame(width: geometry.size.width, height: geometry.size.height, alignment: .center)

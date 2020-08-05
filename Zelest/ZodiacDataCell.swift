@@ -13,13 +13,13 @@ struct ZodiacDataCell: View {
     
     var body: some View {
         
-        VStack(spacing: 4.0) {
+        VStack(alignment: .center, spacing: 4.0) {
             Text(zodiac.name)
                 .foregroundColor(.white)
                 .font(.largeTitle)
                 .fontWeight(.semibold)
-                
-                
+            
+            
             Text(zodiac.rangingDate)
                 .foregroundColor(.white)
                 .font(.headline)
@@ -30,6 +30,6 @@ struct ZodiacDataCell: View {
 
 //struct ZodiacDataCell_Previews: PreviewProvider {
 //    static var previews: some View {
-//        ZodiacDataCell()
+//        ZodiacDataCell( zodiac: Zodiac(name: "ARIES", imageName: "illustration2", rangingDate: "March 19 - April 23"))
 //    }
 //}
