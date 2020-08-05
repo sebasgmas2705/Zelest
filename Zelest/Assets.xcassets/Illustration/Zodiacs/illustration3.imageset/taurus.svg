@@ -1,0 +1,333 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="282px" height="312px" viewBox="0 0 282 312" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <title>Aries</title>
+    <defs>
+        <filter x="-8.1%" y="-5.5%" width="116.3%" height="111.1%" filterUnits="objectBoundingBox" id="filter-1">
+            <feGaussianBlur stdDeviation="1" in="SourceGraphic"></feGaussianBlur>
+        </filter>
+        <filter x="-6.5%" y="-6.9%" width="113.1%" height="113.8%" filterUnits="objectBoundingBox" id="filter-2">
+            <feGaussianBlur stdDeviation="1" in="SourceGraphic"></feGaussianBlur>
+        </filter>
+        <filter x="-6.2%" y="-14.3%" width="112.4%" height="128.5%" filterUnits="objectBoundingBox" id="filter-3">
+            <feGaussianBlur stdDeviation="1" in="SourceGraphic"></feGaussianBlur>
+        </filter>
+        <filter x="-9.1%" y="-5.5%" width="118.2%" height="111.1%" filterUnits="objectBoundingBox" id="filter-4">
+            <feGaussianBlur stdDeviation="1" in="SourceGraphic"></feGaussianBlur>
+        </filter>
+        <filter x="-24.8%" y="-10.3%" width="149.5%" height="120.5%" filterUnits="objectBoundingBox" id="filter-5">
+            <feGaussianBlur stdDeviation="1" in="SourceGraphic"></feGaussianBlur>
+        </filter>
+        <filter x="-10.8%" y="-46.4%" width="121.6%" height="192.8%" filterUnits="objectBoundingBox" id="filter-6">
+            <feGaussianBlur stdDeviation="1" in="SourceGraphic"></feGaussianBlur>
+        </filter>
+        <filter x="-10.9%" y="-12.2%" width="121.9%" height="124.4%" filterUnits="objectBoundingBox" id="filter-7">
+            <feGaussianBlur stdDeviation="1" in="SourceGraphic"></feGaussianBlur>
+        </filter>
+        <filter x="-8.9%" y="-5.8%" width="117.8%" height="111.7%" filterUnits="objectBoundingBox" id="filter-8">
+            <feGaussianBlur stdDeviation="1" in="SourceGraphic"></feGaussianBlur>
+        </filter>
+        <filter x="-17.6%" y="-3.3%" width="135.2%" height="106.6%" filterUnits="objectBoundingBox" id="filter-9">
+            <feGaussianBlur stdDeviation="1" in="SourceGraphic"></feGaussianBlur>
+        </filter>
+        <filter x="-377.5%" y="-11.7%" width="855.0%" height="123.4%" filterUnits="objectBoundingBox" id="filter-10">
+            <feGaussianBlur stdDeviation="1" in="SourceGraphic"></feGaussianBlur>
+        </filter>
+        <filter x="-96.3%" y="-13.2%" width="292.5%" height="126.4%" filterUnits="objectBoundingBox" id="filter-11">
+            <feGaussianBlur stdDeviation="1" in="SourceGraphic"></feGaussianBlur>
+        </filter>
+        <filter x="-5.6%" y="-373.8%" width="111.1%" height="847.7%" filterUnits="objectBoundingBox" id="filter-12">
+            <feGaussianBlur stdDeviation="1" in="SourceGraphic"></feGaussianBlur>
+        </filter>
+        <radialGradient cx="50%" cy="50%" fx="50%" fy="50%" r="99.6694712%" id="radialGradient-13">
+            <stop stop-color="#E5FFFF" offset="0%"></stop>
+            <stop stop-color="#49739A" offset="100%"></stop>
+        </radialGradient>
+        <filter x="-16.7%" y="-16.7%" width="133.3%" height="133.3%" filterUnits="objectBoundingBox" id="filter-14">
+            <feGaussianBlur stdDeviation="0.380952381" in="SourceGraphic"></feGaussianBlur>
+        </filter>
+        <radialGradient cx="50%" cy="50%" fx="50%" fy="50%" r="49.2687438%" gradientTransform="translate(0.500000,0.500000),scale(0.966667,1.000000),rotate(86.906221),translate(-0.500000,-0.500000)" id="radialGradient-15">
+            <stop stop-color="#E5FFFF" offset="0%"></stop>
+            <stop stop-color="#3B6389" offset="100%"></stop>
+        </radialGradient>
+        <filter x="-15.0%" y="-15.5%" width="130.0%" height="131.0%" filterUnits="objectBoundingBox" id="filter-16">
+            <feGaussianBlur stdDeviation="0.571428571" in="SourceGraphic"></feGaussianBlur>
+        </filter>
+        <filter x="-36.4%" y="-36.4%" width="172.7%" height="172.7%" filterUnits="objectBoundingBox" id="filter-17">
+            <feGaussianBlur stdDeviation="0.571428571" in="SourceGraphic"></feGaussianBlur>
+        </filter>
+        <filter x="-16.7%" y="-16.7%" width="133.3%" height="133.3%" filterUnits="objectBoundingBox" id="filter-18">
+            <feGaussianBlur stdDeviation="0.380952381" in="SourceGraphic"></feGaussianBlur>
+        </filter>
+        <filter x="-15.0%" y="-15.5%" width="130.0%" height="131.0%" filterUnits="objectBoundingBox" id="filter-19">
+            <feGaussianBlur stdDeviation="0.571428571" in="SourceGraphic"></feGaussianBlur>
+        </filter>
+        <filter x="-36.4%" y="-36.4%" width="172.7%" height="172.7%" filterUnits="objectBoundingBox" id="filter-20">
+            <feGaussianBlur stdDeviation="0.571428571" in="SourceGraphic"></feGaussianBlur>
+        </filter>
+        <filter x="-16.7%" y="-16.7%" width="133.3%" height="133.3%" filterUnits="objectBoundingBox" id="filter-21">
+            <feGaussianBlur stdDeviation="0.380952381" in="SourceGraphic"></feGaussianBlur>
+        </filter>
+        <filter x="-15.0%" y="-15.5%" width="130.0%" height="131.0%" filterUnits="objectBoundingBox" id="filter-22">
+            <feGaussianBlur stdDeviation="0.571428571" in="SourceGraphic"></feGaussianBlur>
+        </filter>
+        <filter x="-36.4%" y="-36.4%" width="172.7%" height="172.7%" filterUnits="objectBoundingBox" id="filter-23">
+            <feGaussianBlur stdDeviation="0.571428571" in="SourceGraphic"></feGaussianBlur>
+        </filter>
+        <filter x="-16.7%" y="-16.7%" width="133.3%" height="133.3%" filterUnits="objectBoundingBox" id="filter-24">
+            <feGaussianBlur stdDeviation="0.380952381" in="SourceGraphic"></feGaussianBlur>
+        </filter>
+        <filter x="-15.0%" y="-15.5%" width="130.0%" height="131.0%" filterUnits="objectBoundingBox" id="filter-25">
+            <feGaussianBlur stdDeviation="0.571428571" in="SourceGraphic"></feGaussianBlur>
+        </filter>
+        <filter x="-36.4%" y="-36.4%" width="172.7%" height="172.7%" filterUnits="objectBoundingBox" id="filter-26">
+            <feGaussianBlur stdDeviation="0.571428571" in="SourceGraphic"></feGaussianBlur>
+        </filter>
+        <filter x="-16.7%" y="-16.7%" width="133.3%" height="133.3%" filterUnits="objectBoundingBox" id="filter-27">
+            <feGaussianBlur stdDeviation="0.285714286" in="SourceGraphic"></feGaussianBlur>
+        </filter>
+        <radialGradient cx="50%" cy="50%" fx="50%" fy="50%" r="49.2687438%" gradientTransform="translate(0.500000,0.500000),scale(0.966667,1.000000),rotate(86.906221),translate(-0.500000,-0.500000)" id="radialGradient-28">
+            <stop stop-color="#E5FFFF" offset="0%"></stop>
+            <stop stop-color="#3B6389" offset="100%"></stop>
+        </radialGradient>
+        <filter x="-15.0%" y="-15.5%" width="130.0%" height="131.0%" filterUnits="objectBoundingBox" id="filter-29">
+            <feGaussianBlur stdDeviation="0.428571429" in="SourceGraphic"></feGaussianBlur>
+        </filter>
+        <filter x="-11.1%" y="-11.1%" width="122.1%" height="122.1%" filterUnits="objectBoundingBox" id="filter-30">
+            <feGaussianBlur stdDeviation="0.428571429" in="SourceGraphic"></feGaussianBlur>
+        </filter>
+        <filter x="-16.7%" y="-16.7%" width="133.3%" height="133.3%" filterUnits="objectBoundingBox" id="filter-31">
+            <feGaussianBlur stdDeviation="0.380952381" in="SourceGraphic"></feGaussianBlur>
+        </filter>
+        <filter x="-15.0%" y="-15.5%" width="130.0%" height="131.0%" filterUnits="objectBoundingBox" id="filter-32">
+            <feGaussianBlur stdDeviation="0.571428571" in="SourceGraphic"></feGaussianBlur>
+        </filter>
+        <filter x="-36.4%" y="-36.4%" width="172.7%" height="172.7%" filterUnits="objectBoundingBox" id="filter-33">
+            <feGaussianBlur stdDeviation="0.571428571" in="SourceGraphic"></feGaussianBlur>
+        </filter>
+        <filter x="-16.7%" y="-16.7%" width="133.3%" height="133.3%" filterUnits="objectBoundingBox" id="filter-34">
+            <feGaussianBlur stdDeviation="0.380952381" in="SourceGraphic"></feGaussianBlur>
+        </filter>
+        <filter x="-15.0%" y="-15.5%" width="130.0%" height="131.0%" filterUnits="objectBoundingBox" id="filter-35">
+            <feGaussianBlur stdDeviation="0.571428571" in="SourceGraphic"></feGaussianBlur>
+        </filter>
+        <filter x="-36.4%" y="-36.4%" width="172.7%" height="172.7%" filterUnits="objectBoundingBox" id="filter-36">
+            <feGaussianBlur stdDeviation="0.571428571" in="SourceGraphic"></feGaussianBlur>
+        </filter>
+        <filter x="-16.7%" y="-16.7%" width="133.3%" height="133.3%" filterUnits="objectBoundingBox" id="filter-37">
+            <feGaussianBlur stdDeviation="0.19047619" in="SourceGraphic"></feGaussianBlur>
+        </filter>
+        <radialGradient cx="50%" cy="50%" fx="50%" fy="50%" r="49.2687438%" gradientTransform="translate(0.500000,0.500000),scale(0.966667,1.000000),rotate(86.906221),translate(-0.500000,-0.500000)" id="radialGradient-38">
+            <stop stop-color="#E5FFFF" offset="0%"></stop>
+            <stop stop-color="#3B6389" offset="100%"></stop>
+        </radialGradient>
+        <filter x="-15.0%" y="-15.5%" width="130.0%" height="131.0%" filterUnits="objectBoundingBox" id="filter-39">
+            <feGaussianBlur stdDeviation="0.285714286" in="SourceGraphic"></feGaussianBlur>
+        </filter>
+        <filter x="-11.1%" y="-11.1%" width="122.1%" height="122.1%" filterUnits="objectBoundingBox" id="filter-40">
+            <feGaussianBlur stdDeviation="0.285714286" in="SourceGraphic"></feGaussianBlur>
+        </filter>
+        <filter x="-16.7%" y="-16.7%" width="133.3%" height="133.3%" filterUnits="objectBoundingBox" id="filter-41">
+            <feGaussianBlur stdDeviation="0.380952381" in="SourceGraphic"></feGaussianBlur>
+        </filter>
+        <filter x="-15.0%" y="-15.5%" width="130.0%" height="131.0%" filterUnits="objectBoundingBox" id="filter-42">
+            <feGaussianBlur stdDeviation="0.571428571" in="SourceGraphic"></feGaussianBlur>
+        </filter>
+        <filter x="-36.4%" y="-36.4%" width="172.7%" height="172.7%" filterUnits="objectBoundingBox" id="filter-43">
+            <feGaussianBlur stdDeviation="0.571428571" in="SourceGraphic"></feGaussianBlur>
+        </filter>
+        <filter x="-16.7%" y="-16.7%" width="133.3%" height="133.3%" filterUnits="objectBoundingBox" id="filter-44">
+            <feGaussianBlur stdDeviation="0.19047619" in="SourceGraphic"></feGaussianBlur>
+        </filter>
+        <filter x="-15.0%" y="-15.5%" width="130.0%" height="131.0%" filterUnits="objectBoundingBox" id="filter-45">
+            <feGaussianBlur stdDeviation="0.285714286" in="SourceGraphic"></feGaussianBlur>
+        </filter>
+        <filter x="-11.1%" y="-11.1%" width="122.1%" height="122.1%" filterUnits="objectBoundingBox" id="filter-46">
+            <feGaussianBlur stdDeviation="0.285714286" in="SourceGraphic"></feGaussianBlur>
+        </filter>
+        <filter x="-16.7%" y="-16.7%" width="133.3%" height="133.3%" filterUnits="objectBoundingBox" id="filter-47">
+            <feGaussianBlur stdDeviation="0.380952381" in="SourceGraphic"></feGaussianBlur>
+        </filter>
+        <filter x="-15.0%" y="-15.5%" width="130.0%" height="131.0%" filterUnits="objectBoundingBox" id="filter-48">
+            <feGaussianBlur stdDeviation="0.571428571" in="SourceGraphic"></feGaussianBlur>
+        </filter>
+        <filter x="-36.4%" y="-36.4%" width="172.7%" height="172.7%" filterUnits="objectBoundingBox" id="filter-49">
+            <feGaussianBlur stdDeviation="0.571428571" in="SourceGraphic"></feGaussianBlur>
+        </filter>
+        <filter x="-16.7%" y="-16.7%" width="133.3%" height="133.3%" filterUnits="objectBoundingBox" id="filter-50">
+            <feGaussianBlur stdDeviation="0.761904762" in="SourceGraphic"></feGaussianBlur>
+        </filter>
+        <radialGradient cx="50%" cy="50%" fx="50%" fy="50%" r="49.2687438%" gradientTransform="translate(0.500000,0.500000),scale(0.966667,1.000000),rotate(86.906221),translate(-0.500000,-0.500000)" id="radialGradient-51">
+            <stop stop-color="#E5FFFF" offset="0%"></stop>
+            <stop stop-color="#3B6389" offset="100%"></stop>
+        </radialGradient>
+        <filter x="-15.0%" y="-15.5%" width="130.0%" height="131.0%" filterUnits="objectBoundingBox" id="filter-52">
+            <feGaussianBlur stdDeviation="1.14285714" in="SourceGraphic"></feGaussianBlur>
+        </filter>
+        <filter x="-11.1%" y="-11.1%" width="122.1%" height="122.1%" filterUnits="objectBoundingBox" id="filter-53">
+            <feGaussianBlur stdDeviation="1.14285714" in="SourceGraphic"></feGaussianBlur>
+        </filter>
+        <filter x="-16.7%" y="-16.7%" width="133.3%" height="133.3%" filterUnits="objectBoundingBox" id="filter-54">
+            <feGaussianBlur stdDeviation="0.761904762" in="SourceGraphic"></feGaussianBlur>
+        </filter>
+        <filter x="-15.0%" y="-15.5%" width="130.0%" height="131.0%" filterUnits="objectBoundingBox" id="filter-55">
+            <feGaussianBlur stdDeviation="1.14285714" in="SourceGraphic"></feGaussianBlur>
+        </filter>
+        <filter x="-11.1%" y="-11.1%" width="122.1%" height="122.1%" filterUnits="objectBoundingBox" id="filter-56">
+            <feGaussianBlur stdDeviation="1.14285714" in="SourceGraphic"></feGaussianBlur>
+        </filter>
+    </defs>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Aries" transform="translate(3.000000, 5.000000)">
+            <g id="Group" transform="translate(56.000000, 16.000000)" stroke-linecap="square">
+                <g id="Joining-Line" transform="translate(24.000000, 26.000000) scale(1, -1) translate(-24.000000, -26.000000) ">
+                    <line x1="0.15" y1="50.8181818" x2="47.85" y2="1.18181818" id="Line" stroke="#E5FFFF" stroke-width="1.5" filter="url(#filter-1)"></line>
+                    <line x1="0.15" y1="50.8181818" x2="47.85" y2="1.18181818" id="Line-Copy" stroke-opacity="0.75" stroke="#C9FFFF"></line>
+                </g>
+            </g>
+            <g id="Group" transform="translate(8.000000, 76.000000)" stroke-linecap="square">
+                <g id="Joining-Line-Copy-4" transform="translate(29.500000, 22.000000) scale(1, -1) translate(-29.500000, -22.000000) ">
+                    <line x1="0.184375" y1="43" x2="58.815625" y2="1" id="Line" stroke="#E5FFFF" stroke-width="1.5" filter="url(#filter-2)"></line>
+                    <line x1="0.184375" y1="43" x2="58.815625" y2="1" id="Line-Copy" stroke-opacity="0.75" stroke="#C9FFFF"></line>
+                </g>
+            </g>
+            <g id="Group" transform="translate(67.000000, 120.000000)" stroke-linecap="square">
+                <g id="Joining-Line-Copy-5" transform="translate(30.500000, 12.000000) scale(1, -1) translate(-30.500000, -12.000000) ">
+                    <line x1="0.190625" y1="23.4545455" x2="60.809375" y2="0.545454545" id="Line" stroke="#E5FFFF" stroke-width="1.5" filter="url(#filter-3)"></line>
+                    <line x1="0.190625" y1="23.4545455" x2="60.809375" y2="0.545454545" id="Line-Copy" stroke-opacity="0.75" stroke="#C9FFFF"></line>
+                </g>
+            </g>
+            <g id="Group" transform="translate(104.000000, 68.000000)" stroke-linecap="square">
+                <g id="Joining-Line-Copy-6" transform="translate(21.500000, 26.000000) scale(1, -1) translate(-21.500000, -26.000000) ">
+                    <line x1="0.134375" y1="50.8181818" x2="42.865625" y2="1.18181818" id="Line" stroke="#E5FFFF" stroke-width="1.5" filter="url(#filter-4)"></line>
+                    <line x1="0.134375" y1="50.8181818" x2="42.865625" y2="1.18181818" id="Line-Copy" stroke-opacity="0.75" stroke="#C9FFFF"></line>
+                </g>
+            </g>
+            <g id="Group" transform="translate(147.000000, 120.000000)" stroke-linecap="square">
+                <g id="Joining-Line-Copy-7" transform="translate(8.000000, 16.000000) scale(1, -1) translate(-8.000000, -16.000000) ">
+                    <line x1="0.05" y1="31.2727273" x2="15.95" y2="0.727272727" id="Line" stroke="#E5FFFF" stroke-width="1.5" filter="url(#filter-5)"></line>
+                    <line x1="0.05" y1="31.2727273" x2="15.95" y2="0.727272727" id="Line-Copy" stroke-opacity="0.75" stroke="#C9FFFF"></line>
+                </g>
+            </g>
+            <g id="Group" transform="translate(128.000000, 144.000000)" stroke-linecap="square">
+                <g id="Joining-Line-Copy-8" transform="translate(17.500000, 4.000000) scale(1, -1) translate(-17.500000, -4.000000) ">
+                    <line x1="0.109375" y1="7.81818182" x2="34.890625" y2="0.181818182" id="Line" stroke="#E5FFFF" stroke-width="1.5" filter="url(#filter-6)"></line>
+                    <line x1="0.109375" y1="7.81818182" x2="34.890625" y2="0.181818182" id="Line-Copy" stroke-opacity="0.75" stroke="#C9FFFF"></line>
+                </g>
+            </g>
+            <g id="Group" transform="translate(163.000000, 152.000000)" stroke-linecap="square">
+                <g id="Joining-Line-Copy-9" transform="translate(18.000000, 14.000000) scale(1, -1) translate(-18.000000, -14.000000) ">
+                    <line x1="0.1125" y1="27.3636364" x2="35.8875" y2="0.636363636" id="Line" stroke="#E5FFFF" stroke-width="1.5" filter="url(#filter-7)"></line>
+                    <line x1="0.1125" y1="27.3636364" x2="35.8875" y2="0.636363636" id="Line-Copy" stroke-opacity="0.75" stroke="#C9FFFF"></line>
+                </g>
+            </g>
+            <g id="Group" transform="translate(155.000000, 180.000000)" stroke-linecap="square">
+                <g id="Joining-Line-Copy-10" transform="translate(22.000000, 25.000000) scale(-1, -1) translate(-22.000000, -25.000000) ">
+                    <line x1="0.1375" y1="48.8636364" x2="43.8625" y2="1.13636364" id="Line" stroke="#E5FFFF" stroke-width="1.5" filter="url(#filter-8)"></line>
+                    <line x1="0.1375" y1="48.8636364" x2="43.8625" y2="1.13636364" id="Line-Copy" stroke-opacity="0.75" stroke="#C9FFFF"></line>
+                </g>
+            </g>
+            <g id="Group" transform="translate(155.000000, 230.000000)" stroke-linecap="square">
+                <g id="Joining-Line-Copy-12" transform="translate(11.000000, 35.500000) scale(1, -1) translate(-11.000000, -35.500000) ">
+                    <line x1="0.06875" y1="69.3863636" x2="21.93125" y2="1.61363636" id="Line" stroke="#E5FFFF" stroke-width="1.5" filter="url(#filter-9)"></line>
+                    <line x1="0.06875" y1="69.3863636" x2="21.93125" y2="1.61363636" id="Line-Copy" stroke-opacity="0.75" stroke="#C9FFFF"></line>
+                </g>
+            </g>
+            <g id="Group" transform="translate(263.000000, 181.000000)" stroke-linecap="square">
+                <g id="Joining-Line-Copy-13" transform="translate(0.500000, 13.500000) scale(1, -1) translate(-0.500000, -13.500000) ">
+                    <line x1="0.003125" y1="26.3863636" x2="0.996875" y2="0.613636364" id="Line" stroke="#E5FFFF" stroke-width="1.5" filter="url(#filter-10)"></line>
+                    <line x1="0.003125" y1="26.3863636" x2="0.996875" y2="0.613636364" id="Line-Copy" stroke-opacity="0.75" stroke="#C9FFFF"></line>
+                </g>
+            </g>
+            <g id="Group" transform="translate(264.000000, 208.000000)" stroke-linecap="square">
+                <g id="Joining-Line-Copy-14" transform="translate(2.000000, 12.500000) scale(1, -1) translate(-2.000000, -12.500000) ">
+                    <line x1="0.0125" y1="24.4318182" x2="3.9875" y2="0.568181818" id="Line" stroke="#E5FFFF" stroke-width="1.5" filter="url(#filter-11)"></line>
+                    <line x1="0.0125" y1="24.4318182" x2="3.9875" y2="0.568181818" id="Line-Copy" stroke-opacity="0.75" stroke="#C9FFFF"></line>
+                </g>
+            </g>
+            <g id="Group" transform="translate(199.000000, 180.000000)" stroke-linecap="square">
+                <g id="Joining-Line-Copy-11" transform="translate(32.000000, 0.500000) scale(-1, 1) translate(-32.000000, -0.500000) ">
+                    <line x1="0.2" y1="0.977272727" x2="63.8" y2="0.0227272727" id="Line" stroke="#E5FFFF" stroke-width="1.5" filter="url(#filter-12)"></line>
+                    <line x1="0.2" y1="0.977272727" x2="63.8" y2="0.0227272727" id="Line-Copy" stroke-opacity="0.75" stroke="#C9FFFF"></line>
+                </g>
+            </g>
+            <g id="Star" transform="translate(0.000000, 68.000000)">
+                <polygon fill-opacity="0.75" fill="url(#radialGradient-13)" filter="url(#filter-14)" points="8.11385588 9.60679803 4.57142857 11.4285714 6.79206014 8.2583266 4.57142857 4.57142857 8.11385588 6.90985518 11.4285714 4.57142857 9.43565162 8.2583266 11.4285714 11.4285714"></polygon>
+                <polygon id="Star-Copy" fill-opacity="0.75" fill="url(#radialGradient-15)" filter="url(#filter-16)" transform="translate(8.000000, 8.000000) rotate(45.000000) translate(-8.000000, -8.000000) " points="8.1897598 10.5887302 2.28571429 13.5238095 5.98676689 8.41619286 2.28571429 2.47619048 8.1897598 6.24365556 13.7142857 2.47619048 10.3927527 8.41619286 13.7142857 13.5238095"></polygon>
+                <polygon fill="#7DCBDF" filter="url(#filter-17)" transform="translate(8.000000, 8.028716) rotate(45.000000) translate(-8.000000, -8.028716) " points="8 9.6953824 5.6429774 10.3857383 6.33333333 8.02871573 5.6429774 5.67169313 8 6.36204907 10.3570226 5.67169313 9.66666667 8.02871573 10.3570226 10.3857383"></polygon>
+                <polygon id="Star-Copy-2" fill="#FEFFF8" transform="translate(8.000000, 8.028716) rotate(45.000000) translate(-8.000000, -8.028716) " points="8 9.55252526 5.8450079 10.1837078 6.47619048 8.02871573 5.8450079 5.87372364 8 6.50490621 10.1549921 5.87372364 9.52380952 8.02871573 10.1549921 10.1837078"></polygon>
+            </g>
+            <g id="Star" transform="translate(96.000000, 60.000000)">
+                <polygon fill-opacity="0.75" fill="url(#radialGradient-13)" filter="url(#filter-18)" points="8.11385588 9.60679803 4.57142857 11.4285714 6.79206014 8.2583266 4.57142857 4.57142857 8.11385588 6.90985518 11.4285714 4.57142857 9.43565162 8.2583266 11.4285714 11.4285714"></polygon>
+                <polygon id="Star-Copy" fill-opacity="0.75" fill="url(#radialGradient-15)" filter="url(#filter-19)" transform="translate(8.000000, 8.000000) rotate(45.000000) translate(-8.000000, -8.000000) " points="8.1897598 10.5887302 2.28571429 13.5238095 5.98676689 8.41619286 2.28571429 2.47619048 8.1897598 6.24365556 13.7142857 2.47619048 10.3927527 8.41619286 13.7142857 13.5238095"></polygon>
+                <polygon fill="#7DCBDF" filter="url(#filter-20)" transform="translate(8.000000, 8.028716) rotate(45.000000) translate(-8.000000, -8.028716) " points="8 9.6953824 5.6429774 10.3857383 6.33333333 8.02871573 5.6429774 5.67169313 8 6.36204907 10.3570226 5.67169313 9.66666667 8.02871573 10.3570226 10.3857383"></polygon>
+                <polygon id="Star-Copy-2" fill="#FEFFF8" transform="translate(8.000000, 8.028716) rotate(45.000000) translate(-8.000000, -8.028716) " points="8 9.55252526 5.8450079 10.1837078 6.47619048 8.02871573 5.8450079 5.87372364 8 6.50490621 10.1549921 5.87372364 9.52380952 8.02871573 10.1549921 10.1837078"></polygon>
+            </g>
+            <g id="Star" transform="translate(139.000000, 112.000000)">
+                <polygon fill-opacity="0.75" fill="url(#radialGradient-13)" filter="url(#filter-21)" points="8.11385588 9.60679803 4.57142857 11.4285714 6.79206014 8.2583266 4.57142857 4.57142857 8.11385588 6.90985518 11.4285714 4.57142857 9.43565162 8.2583266 11.4285714 11.4285714"></polygon>
+                <polygon id="Star-Copy" fill-opacity="0.75" fill="url(#radialGradient-15)" filter="url(#filter-22)" transform="translate(8.000000, 8.000000) rotate(45.000000) translate(-8.000000, -8.000000) " points="8.1897598 10.5887302 2.28571429 13.5238095 5.98676689 8.41619286 2.28571429 2.47619048 8.1897598 6.24365556 13.7142857 2.47619048 10.3927527 8.41619286 13.7142857 13.5238095"></polygon>
+                <polygon fill="#7DCBDF" filter="url(#filter-23)" transform="translate(8.000000, 8.028716) rotate(45.000000) translate(-8.000000, -8.028716) " points="8 9.6953824 5.6429774 10.3857383 6.33333333 8.02871573 5.6429774 5.67169313 8 6.36204907 10.3570226 5.67169313 9.66666667 8.02871573 10.3570226 10.3857383"></polygon>
+                <polygon id="Star-Copy-2" fill="#FEFFF8" transform="translate(8.000000, 8.028716) rotate(45.000000) translate(-8.000000, -8.028716) " points="8 9.55252526 5.8450079 10.1837078 6.47619048 8.02871573 5.8450079 5.87372364 8 6.50490621 10.1549921 5.87372364 9.52380952 8.02871573 10.1549921 10.1837078"></polygon>
+            </g>
+            <g id="Star" transform="translate(120.000000, 136.000000)">
+                <polygon fill-opacity="0.75" fill="url(#radialGradient-13)" filter="url(#filter-24)" points="8.11385588 9.60679803 4.57142857 11.4285714 6.79206014 8.2583266 4.57142857 4.57142857 8.11385588 6.90985518 11.4285714 4.57142857 9.43565162 8.2583266 11.4285714 11.4285714"></polygon>
+                <polygon id="Star-Copy" fill-opacity="0.75" fill="url(#radialGradient-15)" filter="url(#filter-25)" transform="translate(8.000000, 8.000000) rotate(45.000000) translate(-8.000000, -8.000000) " points="8.1897598 10.5887302 2.28571429 13.5238095 5.98676689 8.41619286 2.28571429 2.47619048 8.1897598 6.24365556 13.7142857 2.47619048 10.3927527 8.41619286 13.7142857 13.5238095"></polygon>
+                <polygon fill="#7DCBDF" filter="url(#filter-26)" transform="translate(8.000000, 8.028716) rotate(45.000000) translate(-8.000000, -8.028716) " points="8 9.6953824 5.6429774 10.3857383 6.33333333 8.02871573 5.6429774 5.67169313 8 6.36204907 10.3570226 5.67169313 9.66666667 8.02871573 10.3570226 10.3857383"></polygon>
+                <polygon id="Star-Copy-2" fill="#FEFFF8" transform="translate(8.000000, 8.028716) rotate(45.000000) translate(-8.000000, -8.028716) " points="8 9.55252526 5.8450079 10.1837078 6.47619048 8.02871573 5.8450079 5.87372364 8 6.50490621 10.1549921 5.87372364 9.52380952 8.02871573 10.1549921 10.1837078"></polygon>
+            </g>
+            <g id="Star" transform="translate(157.000000, 146.000000)">
+                <polygon fill-opacity="0.75" fill="url(#radialGradient-13)" filter="url(#filter-27)" points="6.08539191 7.20509852 3.42857143 8.57142857 5.0940451 6.19374495 3.42857143 3.42857143 6.08539191 5.18239138 8.57142857 3.42857143 7.07673871 6.19374495 8.57142857 8.57142857"></polygon>
+                <polygon id="Star-Copy" fill-opacity="0.75" fill="url(#radialGradient-28)" filter="url(#filter-29)" transform="translate(6.000000, 6.000000) rotate(45.000000) translate(-6.000000, -6.000000) " points="6.14231985 7.94154762 1.71428571 10.1428571 4.49007517 6.31214464 1.71428571 1.85714286 6.14231985 4.68274167 10.2857143 1.85714286 7.79456452 6.31214464 10.2857143 10.1428571"></polygon>
+                <polygon fill="#7DCBDF" filter="url(#filter-30)" transform="translate(6.000000, 6.021537) rotate(45.000000) translate(-6.000000, -6.021537) " points="6 7.2715368 4.23223305 7.78930375 4.75 6.0215368 4.23223305 4.25376985 6 4.7715368 7.76776695 4.25376985 7.25 6.0215368 7.76776695 7.78930375"></polygon>
+                <polygon id="Star-Copy-2" fill="#FEFFF8" transform="translate(6.000000, 6.021537) rotate(45.000000) translate(-6.000000, -6.021537) " points="6 7.16439394 4.38375593 7.63778087 4.85714286 6.0215368 4.38375593 4.40529273 6 4.87867966 7.61624407 4.40529273 7.14285714 6.0215368 7.61624407 7.63778087"></polygon>
+            </g>
+            <g id="Star" transform="translate(191.000000, 172.000000)">
+                <polygon fill-opacity="0.75" fill="url(#radialGradient-13)" filter="url(#filter-31)" points="8.11385588 9.60679803 4.57142857 11.4285714 6.79206014 8.2583266 4.57142857 4.57142857 8.11385588 6.90985518 11.4285714 4.57142857 9.43565162 8.2583266 11.4285714 11.4285714"></polygon>
+                <polygon id="Star-Copy" fill-opacity="0.75" fill="url(#radialGradient-15)" filter="url(#filter-32)" transform="translate(8.000000, 8.000000) rotate(45.000000) translate(-8.000000, -8.000000) " points="8.1897598 10.5887302 2.28571429 13.5238095 5.98676689 8.41619286 2.28571429 2.47619048 8.1897598 6.24365556 13.7142857 2.47619048 10.3927527 8.41619286 13.7142857 13.5238095"></polygon>
+                <polygon fill="#7DCBDF" filter="url(#filter-33)" transform="translate(8.000000, 8.028716) rotate(45.000000) translate(-8.000000, -8.028716) " points="8 9.6953824 5.6429774 10.3857383 6.33333333 8.02871573 5.6429774 5.67169313 8 6.36204907 10.3570226 5.67169313 9.66666667 8.02871573 10.3570226 10.3857383"></polygon>
+                <polygon id="Star-Copy-2" fill="#FEFFF8" transform="translate(8.000000, 8.028716) rotate(45.000000) translate(-8.000000, -8.028716) " points="8 9.55252526 5.8450079 10.1837078 6.47619048 8.02871573 5.8450079 5.87372364 8 6.50490621 10.1549921 5.87372364 9.52380952 8.02871573 10.1549921 10.1837078"></polygon>
+            </g>
+            <g id="Star" transform="translate(147.000000, 222.000000)">
+                <polygon fill-opacity="0.75" fill="url(#radialGradient-13)" filter="url(#filter-34)" points="8.11385588 9.60679803 4.57142857 11.4285714 6.79206014 8.2583266 4.57142857 4.57142857 8.11385588 6.90985518 11.4285714 4.57142857 9.43565162 8.2583266 11.4285714 11.4285714"></polygon>
+                <polygon id="Star-Copy" fill-opacity="0.75" fill="url(#radialGradient-15)" filter="url(#filter-35)" transform="translate(8.000000, 8.000000) rotate(45.000000) translate(-8.000000, -8.000000) " points="8.1897598 10.5887302 2.28571429 13.5238095 5.98676689 8.41619286 2.28571429 2.47619048 8.1897598 6.24365556 13.7142857 2.47619048 10.3927527 8.41619286 13.7142857 13.5238095"></polygon>
+                <polygon fill="#7DCBDF" filter="url(#filter-36)" transform="translate(8.000000, 8.028716) rotate(45.000000) translate(-8.000000, -8.028716) " points="8 9.6953824 5.6429774 10.3857383 6.33333333 8.02871573 5.6429774 5.67169313 8 6.36204907 10.3570226 5.67169313 9.66666667 8.02871573 10.3570226 10.3857383"></polygon>
+                <polygon id="Star-Copy-2" fill="#FEFFF8" transform="translate(8.000000, 8.028716) rotate(45.000000) translate(-8.000000, -8.028716) " points="8 9.55252526 5.8450079 10.1837078 6.47619048 8.02871573 5.8450079 5.87372364 8 6.50490621 10.1549921 5.87372364 9.52380952 8.02871573 10.1549921 10.1837078"></polygon>
+            </g>
+            <g id="Star" transform="translate(173.000000, 297.000000)">
+                <polygon fill-opacity="0.75" fill="url(#radialGradient-13)" filter="url(#filter-37)" points="4.05692794 4.80339901 2.28571429 5.71428571 3.39603007 4.1291633 2.28571429 2.28571429 4.05692794 3.45492759 5.71428571 2.28571429 4.71782581 4.1291633 5.71428571 5.71428571"></polygon>
+                <polygon id="Star-Copy" fill-opacity="0.75" fill="url(#radialGradient-38)" filter="url(#filter-39)" transform="translate(4.000000, 4.000000) rotate(45.000000) translate(-4.000000, -4.000000) " points="4.0948799 5.29436508 1.14285714 6.76190476 2.99338345 4.20809643 1.14285714 1.23809524 4.0948799 3.12182778 6.85714286 1.23809524 5.19637635 4.20809643 6.85714286 6.76190476"></polygon>
+                <polygon fill="#7DCBDF" filter="url(#filter-40)" transform="translate(4.000000, 4.014358) rotate(45.000000) translate(-4.000000, -4.014358) " points="4 4.8476912 2.8214887 5.19286917 3.16666667 4.01435787 2.8214887 2.83584656 4 3.18102453 5.1785113 2.83584656 4.83333333 4.01435787 5.1785113 5.19286917"></polygon>
+                <polygon id="Star-Copy-2" fill="#FEFFF8" transform="translate(4.000000, 4.014358) rotate(45.000000) translate(-4.000000, -4.014358) " points="4 4.77626263 2.92250395 5.09185391 3.23809524 4.01435787 2.92250395 2.93686182 4 3.2524531 5.07749605 2.93686182 4.76190476 4.01435787 5.07749605 5.09185391"></polygon>
+            </g>
+            <g id="Star" transform="translate(255.000000, 173.000000)">
+                <polygon fill-opacity="0.75" fill="url(#radialGradient-13)" filter="url(#filter-41)" points="8.11385588 9.60679803 4.57142857 11.4285714 6.79206014 8.2583266 4.57142857 4.57142857 8.11385588 6.90985518 11.4285714 4.57142857 9.43565162 8.2583266 11.4285714 11.4285714"></polygon>
+                <polygon id="Star-Copy" fill-opacity="0.75" fill="url(#radialGradient-15)" filter="url(#filter-42)" transform="translate(8.000000, 8.000000) rotate(45.000000) translate(-8.000000, -8.000000) " points="8.1897598 10.5887302 2.28571429 13.5238095 5.98676689 8.41619286 2.28571429 2.47619048 8.1897598 6.24365556 13.7142857 2.47619048 10.3927527 8.41619286 13.7142857 13.5238095"></polygon>
+                <polygon fill="#7DCBDF" filter="url(#filter-43)" transform="translate(8.000000, 8.028716) rotate(45.000000) translate(-8.000000, -8.028716) " points="8 9.6953824 5.6429774 10.3857383 6.33333333 8.02871573 5.6429774 5.67169313 8 6.36204907 10.3570226 5.67169313 9.66666667 8.02871573 10.3570226 10.3857383"></polygon>
+                <polygon id="Star-Copy-2" fill="#FEFFF8" transform="translate(8.000000, 8.028716) rotate(45.000000) translate(-8.000000, -8.028716) " points="8 9.55252526 5.8450079 10.1837078 6.47619048 8.02871573 5.8450079 5.87372364 8 6.50490621 10.1549921 5.87372364 9.52380952 8.02871573 10.1549921 10.1837078"></polygon>
+            </g>
+            <g id="Star" transform="translate(260.000000, 204.000000)">
+                <polygon fill-opacity="0.75" fill="url(#radialGradient-13)" filter="url(#filter-44)" points="4.05692794 4.80339901 2.28571429 5.71428571 3.39603007 4.1291633 2.28571429 2.28571429 4.05692794 3.45492759 5.71428571 2.28571429 4.71782581 4.1291633 5.71428571 5.71428571"></polygon>
+                <polygon id="Star-Copy" fill-opacity="0.75" fill="url(#radialGradient-38)" filter="url(#filter-45)" transform="translate(4.000000, 4.000000) rotate(45.000000) translate(-4.000000, -4.000000) " points="4.0948799 5.29436508 1.14285714 6.76190476 2.99338345 4.20809643 1.14285714 1.23809524 4.0948799 3.12182778 6.85714286 1.23809524 5.19637635 4.20809643 6.85714286 6.76190476"></polygon>
+                <polygon fill="#7DCBDF" filter="url(#filter-46)" transform="translate(4.000000, 4.014358) rotate(45.000000) translate(-4.000000, -4.014358) " points="4 4.8476912 2.8214887 5.19286917 3.16666667 4.01435787 2.8214887 2.83584656 4 3.18102453 5.1785113 2.83584656 4.83333333 4.01435787 5.1785113 5.19286917"></polygon>
+                <polygon id="Star-Copy-2" fill="#FEFFF8" transform="translate(4.000000, 4.014358) rotate(45.000000) translate(-4.000000, -4.014358) " points="4 4.77626263 2.92250395 5.09185391 3.23809524 4.01435787 2.92250395 2.93686182 4 3.2524531 5.07749605 2.93686182 4.76190476 4.01435787 5.07749605 5.09185391"></polygon>
+            </g>
+            <g id="Star" transform="translate(260.000000, 225.000000)">
+                <polygon fill-opacity="0.75" fill="url(#radialGradient-13)" filter="url(#filter-47)" points="8.11385588 9.60679803 4.57142857 11.4285714 6.79206014 8.2583266 4.57142857 4.57142857 8.11385588 6.90985518 11.4285714 4.57142857 9.43565162 8.2583266 11.4285714 11.4285714"></polygon>
+                <polygon id="Star-Copy" fill-opacity="0.75" fill="url(#radialGradient-15)" filter="url(#filter-48)" transform="translate(8.000000, 8.000000) rotate(45.000000) translate(-8.000000, -8.000000) " points="8.1897598 10.5887302 2.28571429 13.5238095 5.98676689 8.41619286 2.28571429 2.47619048 8.1897598 6.24365556 13.7142857 2.47619048 10.3927527 8.41619286 13.7142857 13.5238095"></polygon>
+                <polygon fill="#7DCBDF" filter="url(#filter-49)" transform="translate(8.000000, 8.028716) rotate(45.000000) translate(-8.000000, -8.028716) " points="8 9.6953824 5.6429774 10.3857383 6.33333333 8.02871573 5.6429774 5.67169313 8 6.36204907 10.3570226 5.67169313 9.66666667 8.02871573 10.3570226 10.3857383"></polygon>
+                <polygon id="Star-Copy-2" fill="#FEFFF8" transform="translate(8.000000, 8.028716) rotate(45.000000) translate(-8.000000, -8.028716) " points="8 9.55252526 5.8450079 10.1837078 6.47619048 8.02871573 5.8450079 5.87372364 8 6.50490621 10.1549921 5.87372364 9.52380952 8.02871573 10.1549921 10.1837078"></polygon>
+            </g>
+            <g id="Star" transform="translate(40.000000, 0.000000)">
+                <polygon fill-opacity="0.75" fill="url(#radialGradient-13)" filter="url(#filter-50)" points="16.2277118 19.2135961 9.14285714 22.8571429 13.5841203 16.5166532 9.14285714 9.14285714 16.2277118 13.8197104 22.8571429 9.14285714 18.8713032 16.5166532 22.8571429 22.8571429"></polygon>
+                <polygon id="Star-Copy" fill-opacity="0.75" fill="url(#radialGradient-51)" filter="url(#filter-52)" transform="translate(16.000000, 16.000000) rotate(45.000000) translate(-16.000000, -16.000000) " points="16.3795196 21.1774603 4.57142857 27.047619 11.9735338 16.8323857 4.57142857 4.95238095 16.3795196 12.4873111 27.4285714 4.95238095 20.7855054 16.8323857 27.4285714 27.047619"></polygon>
+                <polygon fill="#7DCBDF" filter="url(#filter-53)" transform="translate(16.000000, 16.057431) rotate(45.000000) translate(-16.000000, -16.057431) " points="16 19.3907648 11.2859548 20.7714767 12.6666667 16.0574315 11.2859548 11.3433863 16 12.7240981 20.7140452 11.3433863 19.3333333 16.0574315 20.7140452 20.7714767"></polygon>
+                <polygon id="Star-Copy-2" fill="#FEFFF8" transform="translate(16.000000, 16.057431) rotate(45.000000) translate(-16.000000, -16.057431) " points="16 19.1050505 11.6900158 20.3674157 12.952381 16.0574315 11.6900158 11.7474473 16 13.0098124 20.3099842 11.7474473 19.047619 16.0574315 20.3099842 20.3674157"></polygon>
+            </g>
+            <g id="Star" transform="translate(51.000000, 104.000000)">
+                <polygon fill-opacity="0.75" fill="url(#radialGradient-13)" filter="url(#filter-54)" points="16.2277118 19.2135961 9.14285714 22.8571429 13.5841203 16.5166532 9.14285714 9.14285714 16.2277118 13.8197104 22.8571429 9.14285714 18.8713032 16.5166532 22.8571429 22.8571429"></polygon>
+                <polygon id="Star-Copy" fill-opacity="0.75" fill="url(#radialGradient-51)" filter="url(#filter-55)" transform="translate(16.000000, 16.000000) rotate(45.000000) translate(-16.000000, -16.000000) " points="16.3795196 21.1774603 4.57142857 27.047619 11.9735338 16.8323857 4.57142857 4.95238095 16.3795196 12.4873111 27.4285714 4.95238095 20.7855054 16.8323857 27.4285714 27.047619"></polygon>
+                <polygon fill="#7DCBDF" filter="url(#filter-56)" transform="translate(16.000000, 16.057431) rotate(45.000000) translate(-16.000000, -16.057431) " points="16 19.3907648 11.2859548 20.7714767 12.6666667 16.0574315 11.2859548 11.3433863 16 12.7240981 20.7140452 11.3433863 19.3333333 16.0574315 20.7140452 20.7714767"></polygon>
+                <polygon id="Star-Copy-2" fill="#FEFFF8" transform="translate(16.000000, 16.057431) rotate(45.000000) translate(-16.000000, -16.057431) " points="16 19.1050505 11.6900158 20.3674157 12.952381 16.0574315 11.6900158 11.7474473 16 13.0098124 20.3099842 11.7474473 19.047619 16.0574315 20.3099842 20.3674157"></polygon>
+            </g>
+        </g>
+    </g>
+</svg>

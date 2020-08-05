@@ -1,0 +1,349 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		E6AF5A8924D872CD00324465 /* ZelestApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = E6AF5A8824D872CD00324465 /* ZelestApp.swift */; };
+		E6AF5A8B24D872CD00324465 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E6AF5A8A24D872CD00324465 /* ContentView.swift */; };
+		E6AF5A8D24D872CE00324465 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E6AF5A8C24D872CE00324465 /* Assets.xcassets */; };
+		E6AF5A9024D872CE00324465 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E6AF5A8F24D872CE00324465 /* Preview Assets.xcassets */; };
+		E6AF5A9824D8842000324465 /* ZodiacCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = E6AF5A9724D8842000324465 /* ZodiacCell.swift */; };
+		E6C33A1524D9C9A5002782B0 /* HomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E6C33A1424D9C9A5002782B0 /* HomeView.swift */; };
+		E6C33A1924D9D3C0002782B0 /* ZodiacDataCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = E6C33A1824D9D3C0002782B0 /* ZodiacDataCell.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		E6AF5A8524D872CD00324465 /* Zelest.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Zelest.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		E6AF5A8824D872CD00324465 /* ZelestApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ZelestApp.swift; sourceTree = "<group>"; };
+		E6AF5A8A24D872CD00324465 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		E6AF5A8C24D872CE00324465 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		E6AF5A8F24D872CE00324465 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		E6AF5A9124D872CE00324465 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E6AF5A9724D8842000324465 /* ZodiacCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ZodiacCell.swift; sourceTree = "<group>"; };
+		E6C33A1424D9C9A5002782B0 /* HomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeView.swift; sourceTree = "<group>"; };
+		E6C33A1824D9D3C0002782B0 /* ZodiacDataCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ZodiacDataCell.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		E6AF5A8224D872CD00324465 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		E6AF5A7C24D872CD00324465 = {
+			isa = PBXGroup;
+			children = (
+				E6AF5A8724D872CD00324465 /* Zelest */,
+				E6AF5A8624D872CD00324465 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		E6AF5A8624D872CD00324465 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				E6AF5A8524D872CD00324465 /* Zelest.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		E6AF5A8724D872CD00324465 /* Zelest */ = {
+			isa = PBXGroup;
+			children = (
+				E6AF5A8824D872CD00324465 /* ZelestApp.swift */,
+				E6AF5A8A24D872CD00324465 /* ContentView.swift */,
+				E6C33A1424D9C9A5002782B0 /* HomeView.swift */,
+				E6AF5A9724D8842000324465 /* ZodiacCell.swift */,
+				E6C33A1824D9D3C0002782B0 /* ZodiacDataCell.swift */,
+				E6AF5A8C24D872CE00324465 /* Assets.xcassets */,
+				E6AF5A9124D872CE00324465 /* Info.plist */,
+				E6AF5A8E24D872CE00324465 /* Preview Content */,
+			);
+			path = Zelest;
+			sourceTree = "<group>";
+		};
+		E6AF5A8E24D872CE00324465 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				E6AF5A8F24D872CE00324465 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		E6AF5A8424D872CD00324465 /* Zelest */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E6AF5A9424D872CE00324465 /* Build configuration list for PBXNativeTarget "Zelest" */;
+			buildPhases = (
+				E6AF5A8124D872CD00324465 /* Sources */,
+				E6AF5A8224D872CD00324465 /* Frameworks */,
+				E6AF5A8324D872CD00324465 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Zelest;
+			packageProductDependencies = (
+			);
+			productName = Zelest;
+			productReference = E6AF5A8524D872CD00324465 /* Zelest.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		E6AF5A7D24D872CD00324465 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1200;
+				LastUpgradeCheck = 1200;
+				TargetAttributes = {
+					E6AF5A8424D872CD00324465 = {
+						CreatedOnToolsVersion = 12.0;
+					};
+				};
+			};
+			buildConfigurationList = E6AF5A8024D872CD00324465 /* Build configuration list for PBXProject "Zelest" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = E6AF5A7C24D872CD00324465;
+			packageReferences = (
+			);
+			productRefGroup = E6AF5A8624D872CD00324465 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				E6AF5A8424D872CD00324465 /* Zelest */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		E6AF5A8324D872CD00324465 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E6AF5A9024D872CE00324465 /* Preview Assets.xcassets in Resources */,
+				E6AF5A8D24D872CE00324465 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		E6AF5A8124D872CD00324465 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E6AF5A8B24D872CD00324465 /* ContentView.swift in Sources */,
+				E6C33A1924D9D3C0002782B0 /* ZodiacDataCell.swift in Sources */,
+				E6AF5A8924D872CD00324465 /* ZelestApp.swift in Sources */,
+				E6C33A1524D9C9A5002782B0 /* HomeView.swift in Sources */,
+				E6AF5A9824D8842000324465 /* ZodiacCell.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		E6AF5A9224D872CE00324465 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		E6AF5A9324D872CE00324465 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		E6AF5A9524D872CE00324465 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_ASSET_PATHS = "\"Zelest/Preview Content\"";
+				DEVELOPMENT_TEAM = LTJMD7G2KJ;
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = Zelest/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.zelest.sebastian.Zelest;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		E6AF5A9624D872CE00324465 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_ASSET_PATHS = "\"Zelest/Preview Content\"";
+				DEVELOPMENT_TEAM = LTJMD7G2KJ;
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = Zelest/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.zelest.sebastian.Zelest;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		E6AF5A8024D872CD00324465 /* Build configuration list for PBXProject "Zelest" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E6AF5A9224D872CE00324465 /* Debug */,
+				E6AF5A9324D872CE00324465 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E6AF5A9424D872CE00324465 /* Build configuration list for PBXNativeTarget "Zelest" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E6AF5A9524D872CE00324465 /* Debug */,
+				E6AF5A9624D872CE00324465 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = E6AF5A7D24D872CD00324465 /* Project object */;
+}

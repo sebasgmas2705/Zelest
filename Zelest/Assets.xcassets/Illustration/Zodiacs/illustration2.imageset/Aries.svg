@@ -1,0 +1,143 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="305px" height="387px" viewBox="0 0 305 387" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <title>Aries</title>
+    <defs>
+        <filter x="-2.1%" y="-11.5%" width="104.2%" height="123.1%" filterUnits="objectBoundingBox" id="filter-1">
+            <feGaussianBlur stdDeviation="1" in="SourceGraphic"></feGaussianBlur>
+        </filter>
+        <filter x="-5.5%" y="-2.4%" width="111.0%" height="104.8%" filterUnits="objectBoundingBox" id="filter-2">
+            <feGaussianBlur stdDeviation="1" in="SourceGraphic"></feGaussianBlur>
+        </filter>
+        <filter x="-11.6%" y="-0.9%" width="123.2%" height="101.8%" filterUnits="objectBoundingBox" id="filter-3">
+            <feGaussianBlur stdDeviation="1" in="SourceGraphic"></feGaussianBlur>
+        </filter>
+        <filter x="-23.7%" y="-0.7%" width="147.4%" height="101.4%" filterUnits="objectBoundingBox" id="filter-4">
+            <feGaussianBlur stdDeviation="1" in="SourceGraphic"></feGaussianBlur>
+        </filter>
+        <radialGradient cx="50%" cy="50%" fx="50%" fy="50%" r="99.6694712%" id="radialGradient-5">
+            <stop stop-color="#E5FFFF" offset="0%"></stop>
+            <stop stop-color="#49739A" offset="100%"></stop>
+        </radialGradient>
+        <filter x="-16.7%" y="-16.7%" width="133.3%" height="133.3%" filterUnits="objectBoundingBox" id="filter-6">
+            <feGaussianBlur stdDeviation="0.761904762" in="SourceGraphic"></feGaussianBlur>
+        </filter>
+        <radialGradient cx="50%" cy="50%" fx="50%" fy="50%" r="49.2687438%" gradientTransform="translate(0.500000,0.500000),scale(0.966667,1.000000),rotate(86.906221),translate(-0.500000,-0.500000)" id="radialGradient-7">
+            <stop stop-color="#E5FFFF" offset="0%"></stop>
+            <stop stop-color="#3B6389" offset="100%"></stop>
+        </radialGradient>
+        <filter x="-15.0%" y="-15.5%" width="130.0%" height="131.0%" filterUnits="objectBoundingBox" id="filter-8">
+            <feGaussianBlur stdDeviation="1.14285714" in="SourceGraphic"></feGaussianBlur>
+        </filter>
+        <filter x="-11.1%" y="-11.1%" width="122.1%" height="122.1%" filterUnits="objectBoundingBox" id="filter-9">
+            <feGaussianBlur stdDeviation="1.14285714" in="SourceGraphic"></feGaussianBlur>
+        </filter>
+        <filter x="-16.7%" y="-16.7%" width="133.3%" height="133.3%" filterUnits="objectBoundingBox" id="filter-10">
+            <feGaussianBlur stdDeviation="1.0952381" in="SourceGraphic"></feGaussianBlur>
+        </filter>
+        <radialGradient cx="50%" cy="50%" fx="50%" fy="50%" r="49.2687438%" gradientTransform="translate(0.500000,0.500000),scale(0.966667,1.000000),rotate(86.906221),translate(-0.500000,-0.500000)" id="radialGradient-11">
+            <stop stop-color="#E5FFFF" offset="0%"></stop>
+            <stop stop-color="#3B6389" offset="100%"></stop>
+        </radialGradient>
+        <filter x="-15.0%" y="-15.5%" width="130.0%" height="131.0%" filterUnits="objectBoundingBox" id="filter-12">
+            <feGaussianBlur stdDeviation="1.64285714" in="SourceGraphic"></feGaussianBlur>
+        </filter>
+        <filter x="-36.4%" y="-36.4%" width="172.7%" height="172.7%" filterUnits="objectBoundingBox" id="filter-13">
+            <feGaussianBlur stdDeviation="1.64285714" in="SourceGraphic"></feGaussianBlur>
+        </filter>
+        <filter x="-16.7%" y="-16.7%" width="133.3%" height="133.3%" filterUnits="objectBoundingBox" id="filter-14">
+            <feGaussianBlur stdDeviation="1" in="SourceGraphic"></feGaussianBlur>
+        </filter>
+        <radialGradient cx="50%" cy="50%" fx="50%" fy="50%" r="49.2687438%" gradientTransform="translate(0.500000,0.500000),scale(0.966667,1.000000),rotate(86.906221),translate(-0.500000,-0.500000)" id="radialGradient-15">
+            <stop stop-color="#E5FFFF" offset="0%"></stop>
+            <stop stop-color="#3B6389" offset="100%"></stop>
+        </radialGradient>
+        <filter x="-15.0%" y="-15.5%" width="130.0%" height="131.0%" filterUnits="objectBoundingBox" id="filter-16">
+            <feGaussianBlur stdDeviation="1.5" in="SourceGraphic"></feGaussianBlur>
+        </filter>
+        <filter x="-11.1%" y="-11.1%" width="122.1%" height="122.1%" filterUnits="objectBoundingBox" id="filter-17">
+            <feGaussianBlur stdDeviation="1.5" in="SourceGraphic"></feGaussianBlur>
+        </filter>
+        <filter x="-16.7%" y="-16.7%" width="133.3%" height="133.3%" filterUnits="objectBoundingBox" id="filter-18">
+            <feGaussianBlur stdDeviation="0.761904762" in="SourceGraphic"></feGaussianBlur>
+        </filter>
+        <filter x="-15.0%" y="-15.5%" width="130.0%" height="131.0%" filterUnits="objectBoundingBox" id="filter-19">
+            <feGaussianBlur stdDeviation="1.14285714" in="SourceGraphic"></feGaussianBlur>
+        </filter>
+        <filter x="-11.1%" y="-11.1%" width="122.1%" height="122.1%" filterUnits="objectBoundingBox" id="filter-20">
+            <feGaussianBlur stdDeviation="1.14285714" in="SourceGraphic"></feGaussianBlur>
+        </filter>
+        <filter x="-16.7%" y="-16.7%" width="133.3%" height="133.3%" filterUnits="objectBoundingBox" id="filter-21">
+            <feGaussianBlur stdDeviation="0.619047619" in="SourceGraphic"></feGaussianBlur>
+        </filter>
+        <radialGradient cx="50%" cy="50%" fx="50%" fy="50%" r="49.2687438%" gradientTransform="translate(0.500000,0.500000),scale(0.966667,1.000000),rotate(86.906221),translate(-0.500000,-0.500000)" id="radialGradient-22">
+            <stop stop-color="#E5FFFF" offset="0%"></stop>
+            <stop stop-color="#3B6389" offset="100%"></stop>
+        </radialGradient>
+        <filter x="-15.0%" y="-15.5%" width="130.0%" height="131.0%" filterUnits="objectBoundingBox" id="filter-23">
+            <feGaussianBlur stdDeviation="0.928571429" in="SourceGraphic"></feGaussianBlur>
+        </filter>
+        <filter x="-11.1%" y="-11.1%" width="122.1%" height="122.1%" filterUnits="objectBoundingBox" id="filter-24">
+            <feGaussianBlur stdDeviation="0.928571429" in="SourceGraphic"></feGaussianBlur>
+        </filter>
+    </defs>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="HOME" transform="translate(-31.000000, -143.000000)">
+            <g id="Aries" transform="translate(36.000000, 150.000000)">
+                <g id="Group" transform="translate(16.000000, 23.000000)" stroke-linecap="square">
+                    <g id="Joining-Line">
+                        <line x1="0.496875" y1="27.3636364" x2="158.503125" y2="0.636363636" id="Line" stroke="#E5FFFF" stroke-width="1.5" filter="url(#filter-1)"></line>
+                        <line x1="0.496875" y1="27.3636364" x2="158.503125" y2="0.636363636" id="Line-Copy" stroke-opacity="0.75" stroke="#C9FFFF"></line>
+                    </g>
+                </g>
+                <g id="Group" transform="translate(175.000000, 23.000000)" stroke-linecap="square">
+                    <g id="Joining-Line-Copy" transform="translate(35.000000, 43.500000) scale(1, -1) translate(-35.000000, -43.500000) ">
+                        <line x1="0.21875" y1="85.0227273" x2="69.78125" y2="1.97727273" id="Line" stroke="#E5FFFF" stroke-width="1.5" filter="url(#filter-2)"></line>
+                        <line x1="0.21875" y1="85.0227273" x2="69.78125" y2="1.97727273" id="Line-Copy" stroke-opacity="0.75" stroke="#C9FFFF"></line>
+                    </g>
+                </g>
+                <g id="Group" transform="translate(246.000000, 110.000000)" stroke-linecap="square">
+                    <g id="Joining-Line-Copy-2" transform="translate(16.500000, 61.500000) scale(1, -1) translate(-16.500000, -61.500000) ">
+                        <line x1="0.103125" y1="120.204545" x2="32.896875" y2="2.79545455" id="Line" stroke="#E5FFFF" stroke-width="1.5" filter="url(#filter-3)"></line>
+                        <line x1="0.103125" y1="120.204545" x2="32.896875" y2="2.79545455" id="Line-Copy" stroke-opacity="0.75" stroke="#C9FFFF"></line>
+                    </g>
+                </g>
+                <g id="Group" transform="translate(263.000000, 233.000000)" stroke-linecap="square">
+                    <g id="Joining-Line-Copy-3" transform="translate(8.000000, 65.000000) scale(-1, -1) translate(-8.000000, -65.000000) ">
+                        <line x1="0.05" y1="127.045455" x2="15.95" y2="2.95454545" id="Line" stroke="#E5FFFF" stroke-width="1.5" filter="url(#filter-4)"></line>
+                        <line x1="0.05" y1="127.045455" x2="15.95" y2="2.95454545" id="Line-Copy" stroke-opacity="0.75" stroke="#C9FFFF"></line>
+                    </g>
+                </g>
+                <g id="Star" transform="translate(0.000000, 35.000000)">
+                    <polygon fill-opacity="0.75" fill="url(#radialGradient-5)" filter="url(#filter-6)" points="16.2277118 19.2135961 9.14285714 22.8571429 13.5841203 16.5166532 9.14285714 9.14285714 16.2277118 13.8197104 22.8571429 9.14285714 18.8713032 16.5166532 22.8571429 22.8571429"></polygon>
+                    <polygon id="Star-Copy" fill-opacity="0.75" fill="url(#radialGradient-7)" filter="url(#filter-8)" transform="translate(16.000000, 16.000000) rotate(45.000000) translate(-16.000000, -16.000000) " points="16.3795196 21.1774603 4.57142857 27.047619 11.9735338 16.8323857 4.57142857 4.95238095 16.3795196 12.4873111 27.4285714 4.95238095 20.7855054 16.8323857 27.4285714 27.047619"></polygon>
+                    <polygon fill="#7DCBDF" filter="url(#filter-9)" transform="translate(16.000000, 16.057431) rotate(45.000000) translate(-16.000000, -16.057431) " points="16 19.3907648 11.2859548 20.7714767 12.6666667 16.0574315 11.2859548 11.3433863 16 12.7240981 20.7140452 11.3433863 19.3333333 16.0574315 20.7140452 20.7714767"></polygon>
+                    <polygon id="Star-Copy-2" fill="#FEFFF8" transform="translate(16.000000, 16.057431) rotate(45.000000) translate(-16.000000, -16.057431) " points="16 19.1050505 11.6900158 20.3674157 12.952381 16.0574315 11.6900158 11.7474473 16 13.0098124 20.3099842 11.7474473 19.047619 16.0574315 20.3099842 20.3674157"></polygon>
+                </g>
+                <g id="Star" transform="translate(152.000000, 0.000000)">
+                    <polygon fill-opacity="0.75" fill="url(#radialGradient-5)" filter="url(#filter-10)" points="23.3273356 27.6195443 13.1428571 32.8571429 19.5271729 23.742689 13.1428571 13.1428571 23.3273356 19.8658336 32.8571429 13.1428571 27.1274984 23.742689 32.8571429 32.8571429"></polygon>
+                    <polygon id="Star-Copy" fill-opacity="0.75" fill="url(#radialGradient-11)" filter="url(#filter-12)" transform="translate(23.000000, 23.000000) rotate(45.000000) translate(-23.000000, -23.000000) " points="23.5455594 30.4425992 6.57142857 38.8809524 17.2119548 24.1965545 6.57142857 7.11904762 23.5455594 17.9505097 39.4285714 7.11904762 29.879164 24.1965545 39.4285714 38.8809524"></polygon>
+                    <polygon fill="#7DCBDF" filter="url(#filter-13)" transform="translate(23.000000, 23.082558) rotate(45.000000) translate(-23.000000, -23.082558) " points="23 27.8742244 16.22356 29.8589977 18.2083333 23.0825577 16.22356 16.3061177 23 18.2908911 29.77644 16.3061177 27.7916667 23.0825577 29.77644 29.8589977"></polygon>
+                    <polygon id="Star-Copy-2" fill="#FEFFF8" transform="translate(23.000000, 23.082558) rotate(45.000000) translate(-23.000000, -23.082558) " points="23 27.4635101 16.8043977 29.27816 18.6190476 23.0825577 16.8043977 16.8869555 23 18.7016053 29.1956023 16.8869555 27.3809524 23.0825577 29.1956023 29.27816"></polygon>
+                </g>
+                <g id="Star" transform="translate(224.000000, 89.000000)">
+                    <polygon fill-opacity="0.75" fill="url(#radialGradient-5)" filter="url(#filter-14)" points="21.2988717 25.2178448 12 30 17.8291579 21.6781073 12 12 21.2988717 18.1383698 30 12 24.7685855 21.6781073 30 30"></polygon>
+                    <polygon id="Star-Copy" fill-opacity="0.75" fill="url(#radialGradient-15)" filter="url(#filter-16)" transform="translate(21.000000, 21.000000) rotate(45.000000) translate(-21.000000, -21.000000) " points="21.4981195 27.7954167 6 35.5 15.7152631 22.0925063 6 6.5 21.4981195 16.3895959 36 6.5 27.2809758 22.0925063 36 35.5"></polygon>
+                    <polygon fill="#7DCBDF" filter="url(#filter-17)" transform="translate(21.000000, 21.075379) rotate(45.000000) translate(-21.000000, -21.075379) " points="21 25.4503788 14.8128157 27.2625631 16.625 21.0753788 14.8128157 14.8881945 21 16.7003788 27.1871843 14.8881945 25.375 21.0753788 27.1871843 27.2625631"></polygon>
+                    <polygon id="Star-Copy-2" fill="#FEFFF8" transform="translate(21.000000, 21.075379) rotate(45.000000) translate(-21.000000, -21.075379) " points="21 25.0753788 15.3431458 26.732233 17 21.0753788 15.3431458 15.4185245 21 17.0753788 26.6568542 15.4185245 25 21.0753788 26.6568542 26.732233"></polygon>
+                </g>
+                <g id="Star" transform="translate(263.000000, 217.000000)">
+                    <polygon fill-opacity="0.75" fill="url(#radialGradient-5)" filter="url(#filter-18)" points="16.2277118 19.2135961 9.14285714 22.8571429 13.5841203 16.5166532 9.14285714 9.14285714 16.2277118 13.8197104 22.8571429 9.14285714 18.8713032 16.5166532 22.8571429 22.8571429"></polygon>
+                    <polygon id="Star-Copy" fill-opacity="0.75" fill="url(#radialGradient-7)" filter="url(#filter-19)" transform="translate(16.000000, 16.000000) rotate(45.000000) translate(-16.000000, -16.000000) " points="16.3795196 21.1774603 4.57142857 27.047619 11.9735338 16.8323857 4.57142857 4.95238095 16.3795196 12.4873111 27.4285714 4.95238095 20.7855054 16.8323857 27.4285714 27.047619"></polygon>
+                    <polygon fill="#7DCBDF" filter="url(#filter-20)" transform="translate(16.000000, 16.057431) rotate(45.000000) translate(-16.000000, -16.057431) " points="16 19.3907648 11.2859548 20.7714767 12.6666667 16.0574315 11.2859548 11.3433863 16 12.7240981 20.7140452 11.3433863 19.3333333 16.0574315 20.7140452 20.7714767"></polygon>
+                    <polygon id="Star-Copy-2" fill="#FEFFF8" transform="translate(16.000000, 16.057431) rotate(45.000000) translate(-16.000000, -16.057431) " points="16 19.1050505 11.6900158 20.3674157 12.952381 16.0574315 11.6900158 11.7474473 16 13.0098124 20.3099842 11.7474473 19.047619 16.0574315 20.3099842 20.3674157"></polygon>
+                </g>
+                <g id="Star" transform="translate(249.000000, 350.000000)">
+                    <polygon fill-opacity="0.75" fill="url(#radialGradient-5)" filter="url(#filter-21)" points="13.1850158 15.6110468 7.42857143 18.5714286 11.0370977 13.4197807 7.42857143 7.42857143 13.1850158 11.2285147 18.5714286 7.42857143 15.3329339 13.4197807 18.5714286 18.5714286"></polygon>
+                    <polygon id="Star-Copy" fill-opacity="0.75" fill="url(#radialGradient-22)" filter="url(#filter-23)" transform="translate(13.000000, 13.000000) rotate(45.000000) translate(-13.000000, -13.000000) " points="13.3083597 17.2066865 3.71428571 21.9761905 9.7284962 13.6763134 3.71428571 4.02380952 13.3083597 10.1459403 22.2857143 4.02380952 16.8882231 13.6763134 22.2857143 21.9761905"></polygon>
+                    <polygon fill="#7DCBDF" filter="url(#filter-24)" transform="translate(13.000000, 13.046663) rotate(45.000000) translate(-13.000000, -13.046663) " points="13 15.7549964 9.16983827 16.8768248 10.2916667 13.0466631 9.16983827 9.21650133 13 10.3383297 16.8301617 9.21650133 15.7083333 13.0466631 16.8301617 16.8768248"></polygon>
+                    <polygon id="Star-Copy-2" fill="#FEFFF8" transform="translate(13.000000, 13.046663) rotate(45.000000) translate(-13.000000, -13.046663) " points="13 15.5228535 9.49813785 16.5485252 10.5238095 13.0466631 9.49813785 9.54480091 13 10.5704726 16.5018622 9.54480091 15.4761905 13.0466631 16.5018622 16.5485252"></polygon>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>
