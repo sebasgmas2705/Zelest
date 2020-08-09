@@ -18,11 +18,11 @@ struct ZodiacCell: View {
     }
 }
 
-//struct ZodiacCell_Previews: PreviewProvider {
-//    static var previews: some View {
-//        ZodiacCell(zodiac: Zodiac(name: "k", imageName: "illustration2", rangingDate: "d"))
-//    }
-//}
+struct ZodiacCell_Previews: PreviewProvider {
+    static var previews: some View {
+        ZodiacCell(zodiac: Zodiac(name: "k", imageName: "illustration2", rangingDate: "d"))
+    }
+}
 
 struct Zodiac: Identifiable {
     

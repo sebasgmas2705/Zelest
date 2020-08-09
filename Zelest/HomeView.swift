@@ -74,7 +74,6 @@ struct HomeView: View {
                         SecondaryButton()
                     }
                 }
-//                .frame(width: geometry.size.width, height: geometry.size.height, alignment: .center)
             }
             
         }
