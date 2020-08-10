@@ -11,6 +11,7 @@
 		E6197A6524E084DD0081E24E /* CustomShape.swift in Sources */ = {isa = PBXBuildFile; fileRef = E6197A6424E084DD0081E24E /* CustomShape.swift */; };
 		E61D232324DB51AA00790659 /* MainButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = E61D232224DB51AA00790659 /* MainButton.swift */; };
 		E61D232524DB52C300790659 /* SecondaryButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = E61D232424DB52C300790659 /* SecondaryButton.swift */; };
+		E61FC8E624E1B36500DAEFD1 /* DetailViewData.swift in Sources */ = {isa = PBXBuildFile; fileRef = E61FC8E524E1B36500DAEFD1 /* DetailViewData.swift */; };
 		E6AF5A8924D872CD00324465 /* ZelestApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = E6AF5A8824D872CD00324465 /* ZelestApp.swift */; };
 		E6AF5A8B24D872CD00324465 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E6AF5A8A24D872CD00324465 /* ContentView.swift */; };
 		E6AF5A8D24D872CE00324465 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E6AF5A8C24D872CE00324465 /* Assets.xcassets */; };
@@ -25,6 +26,7 @@
 		E6197A6424E084DD0081E24E /* CustomShape.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomShape.swift; sourceTree = "<group>"; };
 		E61D232224DB51AA00790659 /* MainButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainButton.swift; sourceTree = "<group>"; };
 		E61D232424DB52C300790659 /* SecondaryButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SecondaryButton.swift; sourceTree = "<group>"; };
+		E61FC8E524E1B36500DAEFD1 /* DetailViewData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailViewData.swift; sourceTree = "<group>"; };
 		E6AF5A8524D872CD00324465 /* Zelest.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Zelest.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		E6AF5A8824D872CD00324465 /* ZelestApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ZelestApp.swift; sourceTree = "<group>"; };
 		E6AF5A8A24D872CD00324465 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -70,6 +72,7 @@
 				E6AF5A8A24D872CD00324465 /* ContentView.swift */,
 				E6C33A1424D9C9A5002782B0 /* HomeView.swift */,
 				E6197A5E24E07A830081E24E /* DetailView.swift */,
+				E61FC8E524E1B36500DAEFD1 /* DetailViewData.swift */,
 				E6AF5A9724D8842000324465 /* ZodiacCell.swift */,
 				E6C33A1824D9D3C0002782B0 /* ZodiacDataCell.swift */,
 				E61D232224DB51AA00790659 /* MainButton.swift */,
@@ -170,6 +173,7 @@
 				E61D232324DB51AA00790659 /* MainButton.swift in Sources */,
 				E61D232524DB52C300790659 /* SecondaryButton.swift in Sources */,
 				E6AF5A8924D872CD00324465 /* ZelestApp.swift in Sources */,
+				E61FC8E624E1B36500DAEFD1 /* DetailViewData.swift in Sources */,
 				E6C33A1524D9C9A5002782B0 /* HomeView.swift in Sources */,
 				E6AF5A9824D8842000324465 /* ZodiacCell.swift in Sources */,
 			);

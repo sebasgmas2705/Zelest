@@ -36,12 +36,17 @@ struct DetailView: View {
                             .resizable()
             )
             .mask(CustomShape(radius: 48))
-            .shadow(color: .gray, radius: 12, x: 0, y: 5)
+            .shadow(color: .black, radius: 24, x: 0, y: 1)
             .edgesIgnoringSafeArea(.top)
-            Spacer()
             
+           
             
+            DetailViewData()
+            Spacer()            
         }
+        .background(
+            LinearGradient(gradient: Gradient(colors: [Color("DarkBlue-1"), Color("DarkBlue-2")]), startPoint: .top, endPoint: .bottom)
+                .edgesIgnoringSafeArea(.bottom))
     }
 }
 
