@@ -14,7 +14,10 @@ struct ZodiacCell: View {
     var body: some View {
             
         Image(zodiac.imageName)
-            .frame(width: 295, height: 376, alignment: .center)
+            .resizable()
+            .aspectRatio(contentMode: .fit)
+            
+//            .frame(minWidth: 0, maxWidth: .infinity, minHeight: 0, maxHeight: .infinity, alignment: .center)
     }
 }
 

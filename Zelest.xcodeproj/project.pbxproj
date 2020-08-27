@@ -12,6 +12,9 @@
 		E61D232324DB51AA00790659 /* MainButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = E61D232224DB51AA00790659 /* MainButton.swift */; };
 		E61D232524DB52C300790659 /* SecondaryButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = E61D232424DB52C300790659 /* SecondaryButton.swift */; };
 		E61FC8E624E1B36500DAEFD1 /* DetailViewData.swift in Sources */ = {isa = PBXBuildFile; fileRef = E61FC8E524E1B36500DAEFD1 /* DetailViewData.swift */; };
+		E647688924F6B42D003C2FF3 /* ViewRouter.swift in Sources */ = {isa = PBXBuildFile; fileRef = E647688824F6B42D003C2FF3 /* ViewRouter.swift */; };
+		E647688C24F6B990003C2FF3 /* HoroscopeSubview.swift in Sources */ = {isa = PBXBuildFile; fileRef = E647688B24F6B990003C2FF3 /* HoroscopeSubview.swift */; };
+		E647688E24F6B9A3003C2FF3 /* CompatibilitySubview.swift in Sources */ = {isa = PBXBuildFile; fileRef = E647688D24F6B9A3003C2FF3 /* CompatibilitySubview.swift */; };
 		E6AF5A8924D872CD00324465 /* ZelestApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = E6AF5A8824D872CD00324465 /* ZelestApp.swift */; };
 		E6AF5A8B24D872CD00324465 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E6AF5A8A24D872CD00324465 /* ContentView.swift */; };
 		E6AF5A8D24D872CE00324465 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E6AF5A8C24D872CE00324465 /* Assets.xcassets */; };
@@ -27,6 +30,9 @@
 		E61D232224DB51AA00790659 /* MainButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainButton.swift; sourceTree = "<group>"; };
 		E61D232424DB52C300790659 /* SecondaryButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SecondaryButton.swift; sourceTree = "<group>"; };
 		E61FC8E524E1B36500DAEFD1 /* DetailViewData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailViewData.swift; sourceTree = "<group>"; };
+		E647688824F6B42D003C2FF3 /* ViewRouter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewRouter.swift; sourceTree = "<group>"; };
+		E647688B24F6B990003C2FF3 /* HoroscopeSubview.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HoroscopeSubview.swift; sourceTree = "<group>"; };
+		E647688D24F6B9A3003C2FF3 /* CompatibilitySubview.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CompatibilitySubview.swift; sourceTree = "<group>"; };
 		E6AF5A8524D872CD00324465 /* Zelest.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Zelest.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		E6AF5A8824D872CD00324465 /* ZelestApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ZelestApp.swift; sourceTree = "<group>"; };
 		E6AF5A8A24D872CD00324465 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -49,6 +55,15 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		E647688A24F6B95F003C2FF3 /* Subviews */ = {
+			isa = PBXGroup;
+			children = (
+				E647688B24F6B990003C2FF3 /* HoroscopeSubview.swift */,
+				E647688D24F6B9A3003C2FF3 /* CompatibilitySubview.swift */,
+			);
+			path = Subviews;
+			sourceTree = "<group>";
+		};
 		E6AF5A7C24D872CD00324465 = {
 			isa = PBXGroup;
 			children = (
@@ -68,16 +83,9 @@
 		E6AF5A8724D872CD00324465 /* Zelest */ = {
 			isa = PBXGroup;
 			children = (
-				E6AF5A8824D872CD00324465 /* ZelestApp.swift */,
-				E6AF5A8A24D872CD00324465 /* ContentView.swift */,
-				E6C33A1424D9C9A5002782B0 /* HomeView.swift */,
-				E6197A5E24E07A830081E24E /* DetailView.swift */,
-				E61FC8E524E1B36500DAEFD1 /* DetailViewData.swift */,
-				E6AF5A9724D8842000324465 /* ZodiacCell.swift */,
-				E6C33A1824D9D3C0002782B0 /* ZodiacDataCell.swift */,
-				E61D232224DB51AA00790659 /* MainButton.swift */,
-				E61D232424DB52C300790659 /* SecondaryButton.swift */,
-				E6197A6424E084DD0081E24E /* CustomShape.swift */,
+				E6FAE93E24F448000036DEFC /* StartingPoint */,
+				E6FAE93D24F447E80036DEFC /* MainViews */,
+				E6FAE93F24F448250036DEFC /* Components */,
 				E6AF5A8C24D872CE00324465 /* Assets.xcassets */,
 				E6AF5A9124D872CE00324465 /* Info.plist */,
 				E6AF5A8E24D872CE00324465 /* Preview Content */,
@@ -91,6 +99,55 @@
 				E6AF5A8F24D872CE00324465 /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		E6FAE93D24F447E80036DEFC /* MainViews */ = {
+			isa = PBXGroup;
+			children = (
+				E6C33A1424D9C9A5002782B0 /* HomeView.swift */,
+				E6197A5E24E07A830081E24E /* DetailView.swift */,
+				E647688824F6B42D003C2FF3 /* ViewRouter.swift */,
+			);
+			path = MainViews;
+			sourceTree = "<group>";
+		};
+		E6FAE93E24F448000036DEFC /* StartingPoint */ = {
+			isa = PBXGroup;
+			children = (
+				E6AF5A8824D872CD00324465 /* ZelestApp.swift */,
+				E6AF5A8A24D872CD00324465 /* ContentView.swift */,
+			);
+			path = StartingPoint;
+			sourceTree = "<group>";
+		};
+		E6FAE93F24F448250036DEFC /* Components */ = {
+			isa = PBXGroup;
+			children = (
+				E61FC8E524E1B36500DAEFD1 /* DetailViewData.swift */,
+				E6AF5A9724D8842000324465 /* ZodiacCell.swift */,
+				E6C33A1824D9D3C0002782B0 /* ZodiacDataCell.swift */,
+				E647688A24F6B95F003C2FF3 /* Subviews */,
+				E6FAE94024F448310036DEFC /* Buttons */,
+				E6FAE94124F448450036DEFC /* Shapes */,
+			);
+			path = Components;
+			sourceTree = "<group>";
+		};
+		E6FAE94024F448310036DEFC /* Buttons */ = {
+			isa = PBXGroup;
+			children = (
+				E61D232224DB51AA00790659 /* MainButton.swift */,
+				E61D232424DB52C300790659 /* SecondaryButton.swift */,
+			);
+			path = Buttons;
+			sourceTree = "<group>";
+		};
+		E6FAE94124F448450036DEFC /* Shapes */ = {
+			isa = PBXGroup;
+			children = (
+				E6197A6424E084DD0081E24E /* CustomShape.swift */,
+			);
+			path = Shapes;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -168,12 +225,15 @@
 			files = (
 				E6AF5A8B24D872CD00324465 /* ContentView.swift in Sources */,
 				E6197A5F24E07A830081E24E /* DetailView.swift in Sources */,
+				E647688924F6B42D003C2FF3 /* ViewRouter.swift in Sources */,
 				E6197A6524E084DD0081E24E /* CustomShape.swift in Sources */,
 				E6C33A1924D9D3C0002782B0 /* ZodiacDataCell.swift in Sources */,
 				E61D232324DB51AA00790659 /* MainButton.swift in Sources */,
 				E61D232524DB52C300790659 /* SecondaryButton.swift in Sources */,
 				E6AF5A8924D872CD00324465 /* ZelestApp.swift in Sources */,
 				E61FC8E624E1B36500DAEFD1 /* DetailViewData.swift in Sources */,
+				E647688C24F6B990003C2FF3 /* HoroscopeSubview.swift in Sources */,
+				E647688E24F6B9A3003C2FF3 /* CompatibilitySubview.swift in Sources */,
 				E6C33A1524D9C9A5002782B0 /* HomeView.swift in Sources */,
 				E6AF5A9824D8842000324465 /* ZodiacCell.swift in Sources */,
 			);

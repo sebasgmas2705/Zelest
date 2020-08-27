@@ -28,8 +28,8 @@ struct ZodiacDataCell: View {
     }
 }
 
-//struct ZodiacDataCell_Previews: PreviewProvider {
-//    static var previews: some View {
-//        ZodiacDataCell( zodiac: Zodiac(name: "ARIES", imageName: "illustration2", rangingDate: "March 19 - April 23"))
-//    }
-//}
+struct ZodiacDataCell_Previews: PreviewProvider {
+    static var previews: some View {
+        ZodiacDataCell( zodiac: Zodiac(name: "ARIES", imageName: "illustration2", rangingDate: "March 19 - April 23"))
+    }
+}

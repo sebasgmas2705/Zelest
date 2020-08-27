@@ -15,7 +15,7 @@ struct DetailViewData: View {
                 Spacer()
                 
                 Button(action: {
-                    
+               
                 }) {
                     Text("HOROSCOPE")
                         .font(.footnote)
@@ -68,5 +68,23 @@ struct DetailViewData: View {
 struct DetailViewData_Previews: PreviewProvider {
     static var previews: some View {
         DetailViewData()
+    }
+}
+
+
+
+struct MenuButton: View {
+    var image: String
+    var title: String
+    var action: () -> Void
+
+    var body: some View {
+        VStack {
+            Button(action: action){
+                    Image(image)
+                        .renderingMode(Image.TemplateRenderingMode?.init(Image.TemplateRenderingMode.template))
+                
+            }
+        }
     }
 }
