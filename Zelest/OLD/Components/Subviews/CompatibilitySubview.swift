@@ -8,8 +8,16 @@
 import SwiftUI
 
 struct CompatibilitySubview: View {
+    
+    let z = Zodiac(name: "ARIES", imageName: "illustration2", rangingDate: nil, tag: 0)
+    
     var body: some View {
-        Text(/*@START_MENU_TOKEN@*/"Hello, World!"/*@END_MENU_TOKEN@*/)
+        
+        VStack {
+            ZodiacCell(zodiac: z)
+            ZodiacDataCell(zodiac: z)
+        }
+        
     }
 }
 

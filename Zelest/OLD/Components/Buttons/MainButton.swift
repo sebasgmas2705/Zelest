@@ -31,6 +31,6 @@ struct MainButton: View {
 
 struct MainButton_Previews: PreviewProvider {
     static var previews: some View {
-        MainButton(zodiac: Zodiac(name: "Aries", imageName: "illustration2", rangingDate: ""))
+        MainButton(zodiac: Zodiac(name: "Aries", imageName: "illustration2", rangingDate: "", tag: 0))
     }
 }

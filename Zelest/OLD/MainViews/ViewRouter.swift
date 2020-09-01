@@ -19,4 +19,10 @@ class ViewRouter: ObservableObject {
             objectWillChange.send(self)
         }
     }
+    
+    var show: Bool = false {
+        didSet {
+            objectWillChange.send(self)
+        }
+    }
 }

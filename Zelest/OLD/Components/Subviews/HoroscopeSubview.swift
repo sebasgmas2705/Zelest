@@ -12,8 +12,14 @@ struct HoroscopeSubview: View {
         
         VStack(alignment: .leading, spacing: 12.0) {
             Text("March 23")
+                .font(.title)
+                .fontWeight(.heavy)
+                .foregroundColor(Color("colorText-Gray"))
             
             Text("It's finally time for you to think about just one thing: what makes you happy. Fortunately, that happens to be a person who feels the same way. Give yourself the evening off. Refuse to be put in charge of anything.")
+                .font(.body)
+                .fontWeight(.regular)
+                .foregroundColor(Color("colorText-Gray"))
         }
     }
 }

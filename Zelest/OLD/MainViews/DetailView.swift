@@ -9,7 +9,7 @@ import SwiftUI
 
 struct DetailView: View {
     
-    let z = Zodiac(name: "ARIES", imageName: "illustration2", rangingDate: "March 19 - April 21")
+    let z = Zodiac(name: "ARIES", imageName: "illustration2", rangingDate: "March 19 - April 21", tag: 0)
     
     @State var page = "Horoscope"
     
@@ -18,38 +18,35 @@ struct DetailView: View {
     var body: some View {
         
         VStack {
-            
-            GeometryReader { geometry in
-                VStack {
-                    HStack {
-                        VStack {
-                            
-                            ZodiacCell(zodiac: z)
-                            
-                            ZodiacDataCell(zodiac: z)
-                            
-                        }
-                        .frame(width: geometry.size.width, height: geometry.size.height / 2, alignment: .center)
-                        .padding(.bottom)
-                        
-                    }
-                    .background(Image("illustration1")
-                                    .resizable()
-                                    .frame(minWidth: 0, maxWidth: .infinity, minHeight: 0, maxHeight: .infinity, alignment: .top))
-                    
-                    .mask(CustomShape(radius: 48))
-                    .shadow(color: .black, radius: 24, x: 0, y: 1)
-                    .padding(.bottom)
-                    
-                    
-                    
-                    
-                    
-                    
+//
+//            GeometryReader { geometry in
+//
+//                VStack {
+//
+//                    ZStack {
+//
+//                        Background()
+//                            .edgesIgnoringSafeArea(.top)
+//
+//
+//                        VStack {
+//
+////                            HomeView()
+////
+//                            ZodiacCell(zodiac: z)
+//
+//                            ZodiacDataCell(zodiac: z)
+//                                .padding(.bottom, 24.0)
+//                        }
+//                        .padding(.bottom)
+//                    }
+//
+//                    .frame(width: .infinity, height: geometry.size.height / 1.7)
+
                     ScrollView(.horizontal, showsIndicators: false) {
                         HStack(spacing: 24.0) {
                             Spacer()
-                            
+
                             Button(action: {
                                 viewRouter.currentPage = "Horoscope"
                             }) {
@@ -58,7 +55,7 @@ struct DetailView: View {
                                     .fontWeight(.bold)
                                     .foregroundColor(Color("colorText-Gray"))
                             }
-                            
+
                             Button(action: {
                                 viewRouter.currentPage = "Compatibility"
                             }) {
@@ -67,7 +64,7 @@ struct DetailView: View {
                                     .fontWeight(.bold)
                                     .foregroundColor(Color("colorText-Gray"))
                             }
-                            
+
                             Button(action: {
                                 viewRouter.currentPage = "Ruling"
                             }) {
@@ -76,7 +73,7 @@ struct DetailView: View {
                                     .fontWeight(.bold)
                                     .foregroundColor(Color("colorText-Gray"))
                             }
-                            
+
                             Button(action: {
                                 viewRouter.currentPage = "Good"
                             }) {
@@ -85,7 +82,7 @@ struct DetailView: View {
                                     .fontWeight(.bold)
                                     .foregroundColor(Color("colorText-Gray"))
                             }
-                            
+
                             Button(action: {
                                 viewRouter.currentPage = "Bad"
                             }) {
@@ -94,28 +91,35 @@ struct DetailView: View {
                                     .fontWeight(.bold)
                                     .foregroundColor(Color("colorText-Gray"))
                             }
-                            
+
                             Spacer()
                         }
                     }
                     .padding(.bottom, 24.0)
-                    
-                
-                    
+
+
+
                     if viewRouter.currentPage == "Horoscope" {
-                        
+
                         HoroscopeSubview()
+                            .padding(/*@START_MENU_TOKEN@*/[.leading, .bottom, .trailing]/*@END_MENU_TOKEN@*/)
+
                     } else if viewRouter.currentPage == "Compatibility" {
-                        
+
                         CompatibilitySubview()
+
+                    } else if viewRouter.currentPage == "Ruling" {
+                        RulingPlanetSubview()
                     }
-                    
-                }
-            }
+//                }
+//            }
         }
-        .background(
-            LinearGradient(gradient: Gradient(colors: [Color("DarkBlue-1"), Color("DarkBlue-2")]), startPoint: .top, endPoint: .bottom)
-        )
+
+
+//        .background(LinearGradient(gradient: Gradient(colors: [Color("DarkBlue-1"), Color("DarkBlue-2")]), startPoint: .top, endPoint: .bottom))
+//        .background(Color("DarkBlue-1").edgesIgnoringSafeArea(.top))
+//        .background(Color("DarkBlue-2").edgesIgnoringSafeArea(.bottom))
+
     }
 }
 

@@ -10,7 +10,13 @@ import SwiftUI
 struct ContentView: View {
     var body: some View {
         
-        DetailView(viewRouter: ViewRouter())
+        Home()
+        
+//        HomeView(viewRouter: ViewRouter())
+        
+//        DetailView(viewRouter: ViewRouter())
+        
+//        prueba()
         
     }
 }

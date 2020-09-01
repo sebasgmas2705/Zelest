@@ -16,14 +16,12 @@ struct ZodiacCell: View {
         Image(zodiac.imageName)
             .resizable()
             .aspectRatio(contentMode: .fit)
-            
-//            .frame(minWidth: 0, maxWidth: .infinity, minHeight: 0, maxHeight: .infinity, alignment: .center)
     }
 }
 
 struct ZodiacCell_Previews: PreviewProvider {
     static var previews: some View {
-        ZodiacCell(zodiac: Zodiac(name: "k", imageName: "illustration2", rangingDate: "d"))
+        ZodiacCell(zodiac: Zodiac(name: "k", imageName: "illustration2", rangingDate: "d", tag: 0))
     }
 }
 
@@ -32,7 +30,15 @@ struct Zodiac: Identifiable {
     var id = UUID()
     var name: String
     var imageName: String
-    var rangingDate: String
+    var rangingDate: String?
+    var tag: Int
+}
+
+struct RulingPlanet: Identifiable {
+    
+    var id = UUID()
+    var name: String
+    var imageName: String
 }
 
 //class Zodiac: Identifiable {
