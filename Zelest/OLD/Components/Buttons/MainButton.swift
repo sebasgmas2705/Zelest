@@ -21,9 +21,16 @@ struct MainButton: View {
                 .frame(width: 288.0, height: 46.0)
                 .foregroundColor(Color("AccentColor"))
                 .overlay(Text("Choose " + zodiac.name.lowercased())
-                            .font(.headline)
-                            .fontWeight(.semibold)
-                            .foregroundColor(.white))
+                                .font(.headline)
+                                .fontWeight(.semibold)
+                                .foregroundColor(.white)
+                                .multilineTextAlignment(.leading))
         }
+    }
+}
+
+struct MainButton_Previews: PreviewProvider {
+    static var previews: some View {
+        MainButton(zodiac: Zodiac(name: "Aries", imageName: "illustration2", rangingDate: "", tag: 0))
     }
 }

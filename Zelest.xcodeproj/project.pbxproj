@@ -7,29 +7,67 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		E61D232324DB51AA00790659 /* MainButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = E61D232224DB51AA00790659 /* MainButton.swift */; };
-		E61D232524DB52C300790659 /* SecondaryButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = E61D232424DB52C300790659 /* SecondaryButton.swift */; };
 		E6AF5A8924D872CD00324465 /* ZelestApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = E6AF5A8824D872CD00324465 /* ZelestApp.swift */; };
 		E6AF5A8B24D872CD00324465 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E6AF5A8A24D872CD00324465 /* ContentView.swift */; };
 		E6AF5A8D24D872CE00324465 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E6AF5A8C24D872CE00324465 /* Assets.xcassets */; };
 		E6AF5A9024D872CE00324465 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E6AF5A8F24D872CE00324465 /* Preview Assets.xcassets */; };
-		E6AF5A9824D8842000324465 /* ZodiacCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = E6AF5A9724D8842000324465 /* ZodiacCell.swift */; };
-		E6C33A1524D9C9A5002782B0 /* HomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E6C33A1424D9C9A5002782B0 /* HomeView.swift */; };
-		E6C33A1924D9D3C0002782B0 /* ZodiacDataCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = E6C33A1824D9D3C0002782B0 /* ZodiacDataCell.swift */; };
+		E6DA021224FEE747001AE30D /* DetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E6DA01F924FEE747001AE30D /* DetailView.swift */; };
+		E6DA021324FEE747001AE30D /* HomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E6DA01FA24FEE747001AE30D /* HomeView.swift */; };
+		E6DA021424FEE747001AE30D /* CardFull.swift in Sources */ = {isa = PBXBuildFile; fileRef = E6DA01FC24FEE747001AE30D /* CardFull.swift */; };
+		E6DA021524FEE747001AE30D /* FirstScreenCard.swift in Sources */ = {isa = PBXBuildFile; fileRef = E6DA01FD24FEE747001AE30D /* FirstScreenCard.swift */; };
+		E6DA021624FEE747001AE30D /* CardMiniature.swift in Sources */ = {isa = PBXBuildFile; fileRef = E6DA01FE24FEE747001AE30D /* CardMiniature.swift */; };
+		E6DA021724FEE747001AE30D /* Cards.swift in Sources */ = {isa = PBXBuildFile; fileRef = E6DA01FF24FEE747001AE30D /* Cards.swift */; };
+		E6DA021824FEE747001AE30D /* ViewRouter.swift in Sources */ = {isa = PBXBuildFile; fileRef = E6DA020024FEE747001AE30D /* ViewRouter.swift */; };
+		E6DA021924FEE747001AE30D /* Data.swift in Sources */ = {isa = PBXBuildFile; fileRef = E6DA020224FEE747001AE30D /* Data.swift */; };
+		E6DA021A24FEE747001AE30D /* prueba.swift in Sources */ = {isa = PBXBuildFile; fileRef = E6DA020324FEE747001AE30D /* prueba.swift */; };
+		E6DA021B24FEE747001AE30D /* MainButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = E6DA020624FEE747001AE30D /* MainButton.swift */; };
+		E6DA021C24FEE747001AE30D /* SecondaryButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = E6DA020724FEE747001AE30D /* SecondaryButton.swift */; };
+		E6DA021D24FEE747001AE30D /* DetailViewData.swift in Sources */ = {isa = PBXBuildFile; fileRef = E6DA020824FEE747001AE30D /* DetailViewData.swift */; };
+		E6DA021E24FEE747001AE30D /* ZodiacCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = E6DA020924FEE747001AE30D /* ZodiacCell.swift */; };
+		E6DA021F24FEE747001AE30D /* Background.swift in Sources */ = {isa = PBXBuildFile; fileRef = E6DA020A24FEE747001AE30D /* Background.swift */; };
+		E6DA022024FEE747001AE30D /* CustomShape.swift in Sources */ = {isa = PBXBuildFile; fileRef = E6DA020C24FEE747001AE30D /* CustomShape.swift */; };
+		E6DA022124FEE747001AE30D /* CompatibilitySubview.swift in Sources */ = {isa = PBXBuildFile; fileRef = E6DA020E24FEE747001AE30D /* CompatibilitySubview.swift */; };
+		E6DA022224FEE747001AE30D /* HoroscopeSubview.swift in Sources */ = {isa = PBXBuildFile; fileRef = E6DA020F24FEE747001AE30D /* HoroscopeSubview.swift */; };
+		E6DA022324FEE747001AE30D /* RulingPlanetSubview.swift in Sources */ = {isa = PBXBuildFile; fileRef = E6DA021024FEE747001AE30D /* RulingPlanetSubview.swift */; };
+		E6DA022424FEE747001AE30D /* ZodiacDataCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = E6DA021124FEE747001AE30D /* ZodiacDataCell.swift */; };
+		E6DA022724FEE831001AE30D /* Network.swift in Sources */ = {isa = PBXBuildFile; fileRef = E6DA022624FEE831001AE30D /* Network.swift */; };
+		E6DA022B24FEE8AC001AE30D /* Model.swift in Sources */ = {isa = PBXBuildFile; fileRef = E6DA022A24FEE8AC001AE30D /* Model.swift */; };
+		E6DA023124FEE9B0001AE30D /* Home.swift in Sources */ = {isa = PBXBuildFile; fileRef = E6DA023024FEE9B0001AE30D /* Home.swift */; };
+		E6DA023524FEEF49001AE30D /* NewYork.ttf in Resources */ = {isa = PBXBuildFile; fileRef = E6DA023324FEED2A001AE30D /* NewYork.ttf */; };
+		E6DA023624FEEF49001AE30D /* NewYorkItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = E6DA023424FEED2A001AE30D /* NewYorkItalic.ttf */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		E61D232224DB51AA00790659 /* MainButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainButton.swift; sourceTree = "<group>"; };
-		E61D232424DB52C300790659 /* SecondaryButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SecondaryButton.swift; sourceTree = "<group>"; };
 		E6AF5A8524D872CD00324465 /* Zelest.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Zelest.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		E6AF5A8824D872CD00324465 /* ZelestApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ZelestApp.swift; sourceTree = "<group>"; };
 		E6AF5A8A24D872CD00324465 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		E6AF5A8C24D872CE00324465 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		E6AF5A8F24D872CE00324465 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		E6AF5A9124D872CE00324465 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		E6AF5A9724D8842000324465 /* ZodiacCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ZodiacCell.swift; sourceTree = "<group>"; };
-		E6C33A1424D9C9A5002782B0 /* HomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeView.swift; sourceTree = "<group>"; };
-		E6C33A1824D9D3C0002782B0 /* ZodiacDataCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ZodiacDataCell.swift; sourceTree = "<group>"; };
+		E6DA01F924FEE747001AE30D /* DetailView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DetailView.swift; sourceTree = "<group>"; };
+		E6DA01FA24FEE747001AE30D /* HomeView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HomeView.swift; sourceTree = "<group>"; };
+		E6DA01FC24FEE747001AE30D /* CardFull.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CardFull.swift; sourceTree = "<group>"; };
+		E6DA01FD24FEE747001AE30D /* FirstScreenCard.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FirstScreenCard.swift; sourceTree = "<group>"; };
+		E6DA01FE24FEE747001AE30D /* CardMiniature.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CardMiniature.swift; sourceTree = "<group>"; };
+		E6DA01FF24FEE747001AE30D /* Cards.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Cards.swift; sourceTree = "<group>"; };
+		E6DA020024FEE747001AE30D /* ViewRouter.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ViewRouter.swift; sourceTree = "<group>"; };
+		E6DA020224FEE747001AE30D /* Data.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Data.swift; sourceTree = "<group>"; };
+		E6DA020324FEE747001AE30D /* prueba.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = prueba.swift; sourceTree = "<group>"; };
+		E6DA020624FEE747001AE30D /* MainButton.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MainButton.swift; sourceTree = "<group>"; };
+		E6DA020724FEE747001AE30D /* SecondaryButton.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SecondaryButton.swift; sourceTree = "<group>"; };
+		E6DA020824FEE747001AE30D /* DetailViewData.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DetailViewData.swift; sourceTree = "<group>"; };
+		E6DA020924FEE747001AE30D /* ZodiacCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ZodiacCell.swift; sourceTree = "<group>"; };
+		E6DA020A24FEE747001AE30D /* Background.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Background.swift; sourceTree = "<group>"; };
+		E6DA020C24FEE747001AE30D /* CustomShape.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CustomShape.swift; sourceTree = "<group>"; };
+		E6DA020E24FEE747001AE30D /* CompatibilitySubview.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CompatibilitySubview.swift; sourceTree = "<group>"; };
+		E6DA020F24FEE747001AE30D /* HoroscopeSubview.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HoroscopeSubview.swift; sourceTree = "<group>"; };
+		E6DA021024FEE747001AE30D /* RulingPlanetSubview.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RulingPlanetSubview.swift; sourceTree = "<group>"; };
+		E6DA021124FEE747001AE30D /* ZodiacDataCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ZodiacDataCell.swift; sourceTree = "<group>"; };
+		E6DA022624FEE831001AE30D /* Network.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Network.swift; sourceTree = "<group>"; };
+		E6DA022A24FEE8AC001AE30D /* Model.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Model.swift; sourceTree = "<group>"; };
+		E6DA023024FEE9B0001AE30D /* Home.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Home.swift; sourceTree = "<group>"; };
+		E6DA023324FEED2A001AE30D /* NewYork.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = NewYork.ttf; sourceTree = "<group>"; };
+		E6DA023424FEED2A001AE30D /* NewYorkItalic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = NewYorkItalic.ttf; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -62,13 +100,10 @@
 		E6AF5A8724D872CD00324465 /* Zelest */ = {
 			isa = PBXGroup;
 			children = (
-				E6AF5A8824D872CD00324465 /* ZelestApp.swift */,
-				E6AF5A8A24D872CD00324465 /* ContentView.swift */,
-				E6C33A1424D9C9A5002782B0 /* HomeView.swift */,
-				E6AF5A9724D8842000324465 /* ZodiacCell.swift */,
-				E6C33A1824D9D3C0002782B0 /* ZodiacDataCell.swift */,
-				E61D232224DB51AA00790659 /* MainButton.swift */,
-				E61D232424DB52C300790659 /* SecondaryButton.swift */,
+				E6FAE93E24F448000036DEFC /* StartingPoint */,
+				E6DA022524FEE7F0001AE30D /* NEW */,
+				E6DA01F724FEE747001AE30D /* OLD */,
+				E6DA023224FEECED001AE30D /* Font */,
 				E6AF5A8C24D872CE00324465 /* Assets.xcassets */,
 				E6AF5A9124D872CE00324465 /* Info.plist */,
 				E6AF5A8E24D872CE00324465 /* Preview Content */,
@@ -82,6 +117,172 @@
 				E6AF5A8F24D872CE00324465 /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		E6DA01F724FEE747001AE30D /* OLD */ = {
+			isa = PBXGroup;
+			children = (
+				E6DA01F824FEE747001AE30D /* MainViews */,
+				E6DA020124FEE747001AE30D /* Network */,
+				E6DA020424FEE747001AE30D /* Components */,
+			);
+			path = OLD;
+			sourceTree = "<group>";
+		};
+		E6DA01F824FEE747001AE30D /* MainViews */ = {
+			isa = PBXGroup;
+			children = (
+				E6DA01F924FEE747001AE30D /* DetailView.swift */,
+				E6DA01FA24FEE747001AE30D /* HomeView.swift */,
+				E6DA01FB24FEE747001AE30D /* NEW */,
+				E6DA01FF24FEE747001AE30D /* Cards.swift */,
+				E6DA020024FEE747001AE30D /* ViewRouter.swift */,
+			);
+			path = MainViews;
+			sourceTree = "<group>";
+		};
+		E6DA01FB24FEE747001AE30D /* NEW */ = {
+			isa = PBXGroup;
+			children = (
+				E6DA01FC24FEE747001AE30D /* CardFull.swift */,
+				E6DA01FD24FEE747001AE30D /* FirstScreenCard.swift */,
+				E6DA01FE24FEE747001AE30D /* CardMiniature.swift */,
+			);
+			path = NEW;
+			sourceTree = "<group>";
+		};
+		E6DA020124FEE747001AE30D /* Network */ = {
+			isa = PBXGroup;
+			children = (
+				E6DA020224FEE747001AE30D /* Data.swift */,
+				E6DA020324FEE747001AE30D /* prueba.swift */,
+			);
+			path = Network;
+			sourceTree = "<group>";
+		};
+		E6DA020424FEE747001AE30D /* Components */ = {
+			isa = PBXGroup;
+			children = (
+				E6DA020524FEE747001AE30D /* Buttons */,
+				E6DA020824FEE747001AE30D /* DetailViewData.swift */,
+				E6DA020924FEE747001AE30D /* ZodiacCell.swift */,
+				E6DA020A24FEE747001AE30D /* Background.swift */,
+				E6DA020B24FEE747001AE30D /* Shapes */,
+				E6DA020D24FEE747001AE30D /* Subviews */,
+				E6DA021124FEE747001AE30D /* ZodiacDataCell.swift */,
+			);
+			path = Components;
+			sourceTree = "<group>";
+		};
+		E6DA020524FEE747001AE30D /* Buttons */ = {
+			isa = PBXGroup;
+			children = (
+				E6DA020624FEE747001AE30D /* MainButton.swift */,
+				E6DA020724FEE747001AE30D /* SecondaryButton.swift */,
+			);
+			path = Buttons;
+			sourceTree = "<group>";
+		};
+		E6DA020B24FEE747001AE30D /* Shapes */ = {
+			isa = PBXGroup;
+			children = (
+				E6DA020C24FEE747001AE30D /* CustomShape.swift */,
+			);
+			path = Shapes;
+			sourceTree = "<group>";
+		};
+		E6DA020D24FEE747001AE30D /* Subviews */ = {
+			isa = PBXGroup;
+			children = (
+				E6DA020E24FEE747001AE30D /* CompatibilitySubview.swift */,
+				E6DA020F24FEE747001AE30D /* HoroscopeSubview.swift */,
+				E6DA021024FEE747001AE30D /* RulingPlanetSubview.swift */,
+			);
+			path = Subviews;
+			sourceTree = "<group>";
+		};
+		E6DA022524FEE7F0001AE30D /* NEW */ = {
+			isa = PBXGroup;
+			children = (
+				E6DA022C24FEE915001AE30D /* Views */,
+				E6DA022924FEE8A0001AE30D /* Data */,
+				E6DA022824FEE892001AE30D /* Network */,
+			);
+			path = NEW;
+			sourceTree = "<group>";
+		};
+		E6DA022824FEE892001AE30D /* Network */ = {
+			isa = PBXGroup;
+			children = (
+				E6DA022624FEE831001AE30D /* Network.swift */,
+			);
+			path = Network;
+			sourceTree = "<group>";
+		};
+		E6DA022924FEE8A0001AE30D /* Data */ = {
+			isa = PBXGroup;
+			children = (
+				E6DA022A24FEE8AC001AE30D /* Model.swift */,
+			);
+			path = Data;
+			sourceTree = "<group>";
+		};
+		E6DA022C24FEE915001AE30D /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				E6DA023724FEF028001AE30D /* Cells */,
+				E6DA022F24FEE976001AE30D /* Detail */,
+				E6DA022E24FEE96F001AE30D /* Home */,
+				E6DA022D24FEE95A001AE30D /* MainView */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		E6DA022D24FEE95A001AE30D /* MainView */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = MainView;
+			sourceTree = "<group>";
+		};
+		E6DA022E24FEE96F001AE30D /* Home */ = {
+			isa = PBXGroup;
+			children = (
+				E6DA023024FEE9B0001AE30D /* Home.swift */,
+			);
+			path = Home;
+			sourceTree = "<group>";
+		};
+		E6DA022F24FEE976001AE30D /* Detail */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Detail;
+			sourceTree = "<group>";
+		};
+		E6DA023224FEECED001AE30D /* Font */ = {
+			isa = PBXGroup;
+			children = (
+				E6DA023324FEED2A001AE30D /* NewYork.ttf */,
+				E6DA023424FEED2A001AE30D /* NewYorkItalic.ttf */,
+			);
+			path = Font;
+			sourceTree = "<group>";
+		};
+		E6DA023724FEF028001AE30D /* Cells */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Cells;
+			sourceTree = "<group>";
+		};
+		E6FAE93E24F448000036DEFC /* StartingPoint */ = {
+			isa = PBXGroup;
+			children = (
+				E6AF5A8824D872CD00324465 /* ZelestApp.swift */,
+				E6AF5A8A24D872CD00324465 /* ContentView.swift */,
+			);
+			path = StartingPoint;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -145,6 +346,8 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E6DA023524FEEF49001AE30D /* NewYork.ttf in Resources */,
+				E6DA023624FEEF49001AE30D /* NewYorkItalic.ttf in Resources */,
 				E6AF5A9024D872CE00324465 /* Preview Assets.xcassets in Resources */,
 				E6AF5A8D24D872CE00324465 /* Assets.xcassets in Resources */,
 			);
@@ -157,13 +360,30 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E6DA022124FEE747001AE30D /* CompatibilitySubview.swift in Sources */,
+				E6DA021824FEE747001AE30D /* ViewRouter.swift in Sources */,
+				E6DA021924FEE747001AE30D /* Data.swift in Sources */,
+				E6DA022024FEE747001AE30D /* CustomShape.swift in Sources */,
+				E6DA021624FEE747001AE30D /* CardMiniature.swift in Sources */,
+				E6DA021524FEE747001AE30D /* FirstScreenCard.swift in Sources */,
 				E6AF5A8B24D872CD00324465 /* ContentView.swift in Sources */,
-				E6C33A1924D9D3C0002782B0 /* ZodiacDataCell.swift in Sources */,
-				E61D232324DB51AA00790659 /* MainButton.swift in Sources */,
-				E61D232524DB52C300790659 /* SecondaryButton.swift in Sources */,
+				E6DA021724FEE747001AE30D /* Cards.swift in Sources */,
+				E6DA021C24FEE747001AE30D /* SecondaryButton.swift in Sources */,
+				E6DA022224FEE747001AE30D /* HoroscopeSubview.swift in Sources */,
+				E6DA021D24FEE747001AE30D /* DetailViewData.swift in Sources */,
+				E6DA021424FEE747001AE30D /* CardFull.swift in Sources */,
+				E6DA021324FEE747001AE30D /* HomeView.swift in Sources */,
+				E6DA022424FEE747001AE30D /* ZodiacDataCell.swift in Sources */,
+				E6DA022B24FEE8AC001AE30D /* Model.swift in Sources */,
+				E6DA021B24FEE747001AE30D /* MainButton.swift in Sources */,
+				E6DA021F24FEE747001AE30D /* Background.swift in Sources */,
+				E6DA022724FEE831001AE30D /* Network.swift in Sources */,
+				E6DA021E24FEE747001AE30D /* ZodiacCell.swift in Sources */,
+				E6DA021224FEE747001AE30D /* DetailView.swift in Sources */,
+				E6DA021A24FEE747001AE30D /* prueba.swift in Sources */,
+				E6DA022324FEE747001AE30D /* RulingPlanetSubview.swift in Sources */,
+				E6DA023124FEE9B0001AE30D /* Home.swift in Sources */,
 				E6AF5A8924D872CD00324465 /* ZelestApp.swift in Sources */,
-				E6C33A1524D9C9A5002782B0 /* HomeView.swift in Sources */,
-				E6AF5A9824D8842000324465 /* ZodiacCell.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

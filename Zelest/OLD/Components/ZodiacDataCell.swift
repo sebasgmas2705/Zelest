@@ -19,17 +19,18 @@ struct ZodiacDataCell: View {
                 .font(.largeTitle)
                 .fontWeight(.semibold)
             
-            
-            Text(zodiac.rangingDate)
-                .foregroundColor(.white)
-                .font(.headline)
-                .fontWeight(.bold)
+            if let rangingDate = zodiac.rangingDate {
+                Text(rangingDate)
+                    .foregroundColor(.white)
+                    .font(.headline)
+                    .fontWeight(.bold)
+            }
         }
     }
 }
 
-//struct ZodiacDataCell_Previews: PreviewProvider {
-//    static var previews: some View {
-//        ZodiacDataCell( zodiac: Zodiac(name: "ARIES", imageName: "illustration2", rangingDate: "March 19 - April 23"))
-//    }
-//}
+struct ZodiacDataCell_Previews: PreviewProvider {
+    static var previews: some View {
+        ZodiacDataCell( zodiac: Zodiac(name: "ARIES", imageName: "illustration2", rangingDate: "March 19 - April 23", tag: 0))
+    }
+}
