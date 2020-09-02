@@ -7,6 +7,10 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		E60C8D9624FFEAFA005F91BE /* HoroscopeCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = E60C8D9524FFEAFA005F91BE /* HoroscopeCell.swift */; };
+		E62190E025000E3900B9B655 /* Detail.swift in Sources */ = {isa = PBXBuildFile; fileRef = E62190DF25000E3900B9B655 /* Detail.swift */; };
+		E62190E2250010B300B9B655 /* MainView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E62190E1250010B300B9B655 /* MainView.swift */; };
+		E62190E5250028D200B9B655 /* RoundedShape.swift in Sources */ = {isa = PBXBuildFile; fileRef = E62190E4250028D200B9B655 /* RoundedShape.swift */; };
 		E6AF5A8924D872CD00324465 /* ZelestApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = E6AF5A8824D872CD00324465 /* ZelestApp.swift */; };
 		E6AF5A8B24D872CD00324465 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E6AF5A8A24D872CD00324465 /* ContentView.swift */; };
 		E6AF5A8D24D872CE00324465 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E6AF5A8C24D872CE00324465 /* Assets.xcassets */; };
@@ -38,6 +42,10 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		E60C8D9524FFEAFA005F91BE /* HoroscopeCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HoroscopeCell.swift; sourceTree = "<group>"; };
+		E62190DF25000E3900B9B655 /* Detail.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Detail.swift; sourceTree = "<group>"; };
+		E62190E1250010B300B9B655 /* MainView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainView.swift; sourceTree = "<group>"; };
+		E62190E4250028D200B9B655 /* RoundedShape.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RoundedShape.swift; sourceTree = "<group>"; };
 		E6AF5A8524D872CD00324465 /* Zelest.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Zelest.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		E6AF5A8824D872CD00324465 /* ZelestApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ZelestApp.swift; sourceTree = "<group>"; };
 		E6AF5A8A24D872CD00324465 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -81,6 +89,14 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		E62190E3250028C300B9B655 /* Shapes */ = {
+			isa = PBXGroup;
+			children = (
+				E62190E4250028D200B9B655 /* RoundedShape.swift */,
+			);
+			path = Shapes;
+			sourceTree = "<group>";
+		};
 		E6AF5A7C24D872CD00324465 = {
 			isa = PBXGroup;
 			children = (
@@ -204,6 +220,7 @@
 		E6DA022524FEE7F0001AE30D /* NEW */ = {
 			isa = PBXGroup;
 			children = (
+				E62190E3250028C300B9B655 /* Shapes */,
 				E6DA022C24FEE915001AE30D /* Views */,
 				E6DA022924FEE8A0001AE30D /* Data */,
 				E6DA022824FEE892001AE30D /* Network */,
@@ -241,6 +258,7 @@
 		E6DA022D24FEE95A001AE30D /* MainView */ = {
 			isa = PBXGroup;
 			children = (
+				E62190E1250010B300B9B655 /* MainView.swift */,
 			);
 			path = MainView;
 			sourceTree = "<group>";
@@ -256,6 +274,7 @@
 		E6DA022F24FEE976001AE30D /* Detail */ = {
 			isa = PBXGroup;
 			children = (
+				E62190DF25000E3900B9B655 /* Detail.swift */,
 			);
 			path = Detail;
 			sourceTree = "<group>";
@@ -272,6 +291,7 @@
 		E6DA023724FEF028001AE30D /* Cells */ = {
 			isa = PBXGroup;
 			children = (
+				E60C8D9524FFEAFA005F91BE /* HoroscopeCell.swift */,
 			);
 			path = Cells;
 			sourceTree = "<group>";
@@ -367,16 +387,20 @@
 				E6DA021624FEE747001AE30D /* CardMiniature.swift in Sources */,
 				E6DA021524FEE747001AE30D /* FirstScreenCard.swift in Sources */,
 				E6AF5A8B24D872CD00324465 /* ContentView.swift in Sources */,
+				E62190E5250028D200B9B655 /* RoundedShape.swift in Sources */,
 				E6DA021724FEE747001AE30D /* Cards.swift in Sources */,
+				E60C8D9624FFEAFA005F91BE /* HoroscopeCell.swift in Sources */,
 				E6DA021C24FEE747001AE30D /* SecondaryButton.swift in Sources */,
 				E6DA022224FEE747001AE30D /* HoroscopeSubview.swift in Sources */,
 				E6DA021D24FEE747001AE30D /* DetailViewData.swift in Sources */,
+				E62190E025000E3900B9B655 /* Detail.swift in Sources */,
 				E6DA021424FEE747001AE30D /* CardFull.swift in Sources */,
 				E6DA021324FEE747001AE30D /* HomeView.swift in Sources */,
 				E6DA022424FEE747001AE30D /* ZodiacDataCell.swift in Sources */,
 				E6DA022B24FEE8AC001AE30D /* Model.swift in Sources */,
 				E6DA021B24FEE747001AE30D /* MainButton.swift in Sources */,
 				E6DA021F24FEE747001AE30D /* Background.swift in Sources */,
+				E62190E2250010B300B9B655 /* MainView.swift in Sources */,
 				E6DA022724FEE831001AE30D /* Network.swift in Sources */,
 				E6DA021E24FEE747001AE30D /* ZodiacCell.swift in Sources */,
 				E6DA021224FEE747001AE30D /* DetailView.swift in Sources */,
