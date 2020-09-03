@@ -15,14 +15,20 @@ struct MainView: View {
     
     var body: some View {
         
-        VStack {
-            Home(animation: animation, selected: $selected, show: $show)
-            
-            if show {
-                Detail()
-            }
-        }
+        Planet()
+        
+//        ZStack {
+//            
+////            Home()
+//            Home(animation: animation, selected: $selected, show: $show)
+//            
+//            if show {
+//                Detail(selected: $selected, show: $show, animation: animation)
+//            }
+//        }
+//        .preferredColorScheme(.dark)
     }
+    
 }
 
 struct MainView_Previews: PreviewProvider {

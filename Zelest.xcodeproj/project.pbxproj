@@ -11,6 +11,14 @@
 		E62190E025000E3900B9B655 /* Detail.swift in Sources */ = {isa = PBXBuildFile; fileRef = E62190DF25000E3900B9B655 /* Detail.swift */; };
 		E62190E2250010B300B9B655 /* MainView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E62190E1250010B300B9B655 /* MainView.swift */; };
 		E62190E5250028D200B9B655 /* RoundedShape.swift in Sources */ = {isa = PBXBuildFile; fileRef = E62190E4250028D200B9B655 /* RoundedShape.swift */; };
+		E67DA04F25015C7600ED39EF /* Hosting.swift in Sources */ = {isa = PBXBuildFile; fileRef = E67DA04E25015C7600ED39EF /* Hosting.swift */; };
+		E67DA051250164BC00ED39EF /* Summary.swift in Sources */ = {isa = PBXBuildFile; fileRef = E67DA050250164BC00ED39EF /* Summary.swift */; };
+		E67DA057250169C200ED39EF /* Mars.usdz in Resources */ = {isa = PBXBuildFile; fileRef = E67DA052250169C100ED39EF /* Mars.usdz */; };
+		E67DA058250169C200ED39EF /* Venus.usdz in Resources */ = {isa = PBXBuildFile; fileRef = E67DA053250169C200ED39EF /* Venus.usdz */; };
+		E67DA059250169C200ED39EF /* Jupiter.usdz in Resources */ = {isa = PBXBuildFile; fileRef = E67DA054250169C200ED39EF /* Jupiter.usdz */; };
+		E67DA05A250169C200ED39EF /* Earth.usdz in Resources */ = {isa = PBXBuildFile; fileRef = E67DA055250169C200ED39EF /* Earth.usdz */; };
+		E67DA05B250169C200ED39EF /* Pluto.usdz in Resources */ = {isa = PBXBuildFile; fileRef = E67DA056250169C200ED39EF /* Pluto.usdz */; };
+		E67DA05E25016A8600ED39EF /* Planet.swift in Sources */ = {isa = PBXBuildFile; fileRef = E67DA05D25016A8600ED39EF /* Planet.swift */; };
 		E6AF5A8924D872CD00324465 /* ZelestApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = E6AF5A8824D872CD00324465 /* ZelestApp.swift */; };
 		E6AF5A8B24D872CD00324465 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E6AF5A8A24D872CD00324465 /* ContentView.swift */; };
 		E6AF5A8D24D872CE00324465 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E6AF5A8C24D872CE00324465 /* Assets.xcassets */; };
@@ -46,6 +54,14 @@
 		E62190DF25000E3900B9B655 /* Detail.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Detail.swift; sourceTree = "<group>"; };
 		E62190E1250010B300B9B655 /* MainView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainView.swift; sourceTree = "<group>"; };
 		E62190E4250028D200B9B655 /* RoundedShape.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RoundedShape.swift; sourceTree = "<group>"; };
+		E67DA04E25015C7600ED39EF /* Hosting.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Hosting.swift; sourceTree = "<group>"; };
+		E67DA050250164BC00ED39EF /* Summary.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Summary.swift; sourceTree = "<group>"; };
+		E67DA052250169C100ED39EF /* Mars.usdz */ = {isa = PBXFileReference; lastKnownFileType = file.usdz; path = Mars.usdz; sourceTree = "<group>"; };
+		E67DA053250169C200ED39EF /* Venus.usdz */ = {isa = PBXFileReference; lastKnownFileType = file.usdz; path = Venus.usdz; sourceTree = "<group>"; };
+		E67DA054250169C200ED39EF /* Jupiter.usdz */ = {isa = PBXFileReference; lastKnownFileType = file.usdz; path = Jupiter.usdz; sourceTree = "<group>"; };
+		E67DA055250169C200ED39EF /* Earth.usdz */ = {isa = PBXFileReference; lastKnownFileType = file.usdz; path = Earth.usdz; sourceTree = "<group>"; };
+		E67DA056250169C200ED39EF /* Pluto.usdz */ = {isa = PBXFileReference; lastKnownFileType = file.usdz; path = Pluto.usdz; sourceTree = "<group>"; };
+		E67DA05D25016A8600ED39EF /* Planet.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Planet.swift; sourceTree = "<group>"; };
 		E6AF5A8524D872CD00324465 /* Zelest.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Zelest.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		E6AF5A8824D872CD00324465 /* ZelestApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ZelestApp.swift; sourceTree = "<group>"; };
 		E6AF5A8A24D872CD00324465 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -97,6 +113,18 @@
 			path = Shapes;
 			sourceTree = "<group>";
 		};
+		E67DA05C250169D300ED39EF /* Objects */ = {
+			isa = PBXGroup;
+			children = (
+				E67DA055250169C200ED39EF /* Earth.usdz */,
+				E67DA054250169C200ED39EF /* Jupiter.usdz */,
+				E67DA052250169C100ED39EF /* Mars.usdz */,
+				E67DA056250169C200ED39EF /* Pluto.usdz */,
+				E67DA053250169C200ED39EF /* Venus.usdz */,
+			);
+			path = Objects;
+			sourceTree = "<group>";
+		};
 		E6AF5A7C24D872CD00324465 = {
 			isa = PBXGroup;
 			children = (
@@ -116,6 +144,7 @@
 		E6AF5A8724D872CD00324465 /* Zelest */ = {
 			isa = PBXGroup;
 			children = (
+				E67DA05C250169D300ED39EF /* Objects */,
 				E6FAE93E24F448000036DEFC /* StartingPoint */,
 				E6DA022524FEE7F0001AE30D /* NEW */,
 				E6DA01F724FEE747001AE30D /* OLD */,
@@ -259,6 +288,7 @@
 			isa = PBXGroup;
 			children = (
 				E62190E1250010B300B9B655 /* MainView.swift */,
+				E67DA04E25015C7600ED39EF /* Hosting.swift */,
 			);
 			path = MainView;
 			sourceTree = "<group>";
@@ -275,6 +305,8 @@
 			isa = PBXGroup;
 			children = (
 				E62190DF25000E3900B9B655 /* Detail.swift */,
+				E67DA050250164BC00ED39EF /* Summary.swift */,
+				E67DA05D25016A8600ED39EF /* Planet.swift */,
 			);
 			path = Detail;
 			sourceTree = "<group>";
@@ -366,6 +398,11 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E67DA057250169C200ED39EF /* Mars.usdz in Resources */,
+				E67DA058250169C200ED39EF /* Venus.usdz in Resources */,
+				E67DA059250169C200ED39EF /* Jupiter.usdz in Resources */,
+				E67DA05A250169C200ED39EF /* Earth.usdz in Resources */,
+				E67DA05B250169C200ED39EF /* Pluto.usdz in Resources */,
 				E6DA023524FEEF49001AE30D /* NewYork.ttf in Resources */,
 				E6DA023624FEEF49001AE30D /* NewYorkItalic.ttf in Resources */,
 				E6AF5A9024D872CE00324465 /* Preview Assets.xcassets in Resources */,
@@ -396,6 +433,7 @@
 				E62190E025000E3900B9B655 /* Detail.swift in Sources */,
 				E6DA021424FEE747001AE30D /* CardFull.swift in Sources */,
 				E6DA021324FEE747001AE30D /* HomeView.swift in Sources */,
+				E67DA051250164BC00ED39EF /* Summary.swift in Sources */,
 				E6DA022424FEE747001AE30D /* ZodiacDataCell.swift in Sources */,
 				E6DA022B24FEE8AC001AE30D /* Model.swift in Sources */,
 				E6DA021B24FEE747001AE30D /* MainButton.swift in Sources */,
@@ -408,6 +446,8 @@
 				E6DA022324FEE747001AE30D /* RulingPlanetSubview.swift in Sources */,
 				E6DA023124FEE9B0001AE30D /* Home.swift in Sources */,
 				E6AF5A8924D872CD00324465 /* ZelestApp.swift in Sources */,
+				E67DA04F25015C7600ED39EF /* Hosting.swift in Sources */,
+				E67DA05E25016A8600ED39EF /* Planet.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

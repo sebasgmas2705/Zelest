@@ -7,6 +7,13 @@
 
 import Foundation
 
+struct PlanetModel: Identifiable {
+    
+    var id: UUID = UUID()
+    var modelName: String
+    var name: String
+}
+
 struct HoroscopeModel: Identifiable, Codable {
     
     var id: UUID? = UUID()

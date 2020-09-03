@@ -72,22 +72,31 @@ struct Home: View {
                                     .aspectRatio(contentMode: .fill)
                                     .frame(width: 92, height: 88)
                                     .offset(x: 0, y: -15)
-                                    .matchedGeometryEffect(id: horoscope.id, in: animation)
+                                    .matchedGeometryEffect(id: horoscope.id, in: animation, properties: .frame, isSource: true)
                                     
                             }
                             .padding(.trailing, 67.0)
                         }
                     }
+                    .onTapGesture {
+                        
+                        withAnimation(.spring()){
+                            
+                            selected = horoscope
+                            show.toggle()
+                        }
+                    }
                 }
             }
+            .background(Color.black)
         }
     }
 }
 
 //struct Home_Previews: PreviewProvider {
-//    @Namespace var animationa
-//    @State var showa = false
-//    @State var selecteda : HoroscopeModel = cellsData[0]
+////    @Namespace var animationa
+////    @State var showa = false
+////    @State var selecteda : HoroscopeModel = cellsData[0]
 //
 //
 //    static var previews: some View {
