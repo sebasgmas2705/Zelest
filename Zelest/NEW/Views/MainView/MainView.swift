@@ -11,22 +11,21 @@ struct MainView: View {
     
     @Namespace var animation
     @State var show = false
-    @State var selected : HoroscopeModel = cellsData[0]
+    @State var selected : HoroscopePreStatic = cellsData[0]
+    @State var apiHoroscope : HoroscopeModel?
     
     var body: some View {
         
-        Planet()
-        
-//        ZStack {
-//            
-////            Home()
-//            Home(animation: animation, selected: $selected, show: $show)
-//            
-//            if show {
-//                Detail(selected: $selected, show: $show, animation: animation)
-//            }
-//        }
-//        .preferredColorScheme(.dark)
+        ZStack {
+            
+            Home(animation: animation, selected: $selected, apiHoroscope: $apiHoroscope, show: $show)
+            
+            if show {
+                
+                Detail(selected: $selected, apiHoroscope: $apiHoroscope, show: $show, animation: animation)
+            }
+        }
+        .preferredColorScheme(.dark)
     }
     
 }

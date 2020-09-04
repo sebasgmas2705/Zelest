@@ -9,11 +9,15 @@ import SwiftUI
 import SceneKit
 
 struct Planet: View {
+    
+    @Binding var apiHoroscope : HoroscopeModel?
+    @Binding var selected : HoroscopePreStatic
+
     var body: some View {
         
         VStack {
             
-            // seteamos la escena donde pintar el modelo 3D...
+            // seteamos la escena donde pintar el modelo 3D... por ahora se queda estatico
             SceneView(scene: SCNScene(named:  "Jupiter.usdz"), options: [.autoenablesDefaultLighting, .allowsCameraControl])
             
             // ...y le damos un frame donde el usuario pueda interactuar
@@ -24,8 +28,8 @@ struct Planet: View {
     }
 }
 
-struct Planet_Previews: PreviewProvider {
-    static var previews: some View {
-        Planet()
-    }
-}
+//struct Planet_Previews: PreviewProvider {
+//    static var previews: some View {
+//        Planet()
+//    }
+//}

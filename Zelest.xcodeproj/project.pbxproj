@@ -11,6 +11,8 @@
 		E62190E025000E3900B9B655 /* Detail.swift in Sources */ = {isa = PBXBuildFile; fileRef = E62190DF25000E3900B9B655 /* Detail.swift */; };
 		E62190E2250010B300B9B655 /* MainView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E62190E1250010B300B9B655 /* MainView.swift */; };
 		E62190E5250028D200B9B655 /* RoundedShape.swift in Sources */ = {isa = PBXBuildFile; fileRef = E62190E4250028D200B9B655 /* RoundedShape.swift */; };
+		E668EDD725028F7C00332ED8 /* NetworkApi.swift in Sources */ = {isa = PBXBuildFile; fileRef = E668EDD625028F7C00332ED8 /* NetworkApi.swift */; };
+		E668EDDC2502A75C00332ED8 /* SplashScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = E668EDDB2502A75C00332ED8 /* SplashScreen.swift */; };
 		E67DA04F25015C7600ED39EF /* Hosting.swift in Sources */ = {isa = PBXBuildFile; fileRef = E67DA04E25015C7600ED39EF /* Hosting.swift */; };
 		E67DA051250164BC00ED39EF /* Summary.swift in Sources */ = {isa = PBXBuildFile; fileRef = E67DA050250164BC00ED39EF /* Summary.swift */; };
 		E67DA057250169C200ED39EF /* Mars.usdz in Resources */ = {isa = PBXBuildFile; fileRef = E67DA052250169C100ED39EF /* Mars.usdz */; };
@@ -54,6 +56,8 @@
 		E62190DF25000E3900B9B655 /* Detail.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Detail.swift; sourceTree = "<group>"; };
 		E62190E1250010B300B9B655 /* MainView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainView.swift; sourceTree = "<group>"; };
 		E62190E4250028D200B9B655 /* RoundedShape.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RoundedShape.swift; sourceTree = "<group>"; };
+		E668EDD625028F7C00332ED8 /* NetworkApi.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkApi.swift; sourceTree = "<group>"; };
+		E668EDDB2502A75C00332ED8 /* SplashScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SplashScreen.swift; sourceTree = "<group>"; };
 		E67DA04E25015C7600ED39EF /* Hosting.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Hosting.swift; sourceTree = "<group>"; };
 		E67DA050250164BC00ED39EF /* Summary.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Summary.swift; sourceTree = "<group>"; };
 		E67DA052250169C100ED39EF /* Mars.usdz */ = {isa = PBXFileReference; lastKnownFileType = file.usdz; path = Mars.usdz; sourceTree = "<group>"; };
@@ -111,6 +115,14 @@
 				E62190E4250028D200B9B655 /* RoundedShape.swift */,
 			);
 			path = Shapes;
+			sourceTree = "<group>";
+		};
+		E668EDD82502A73C00332ED8 /* SplashScreen */ = {
+			isa = PBXGroup;
+			children = (
+				E668EDDB2502A75C00332ED8 /* SplashScreen.swift */,
+			);
+			path = SplashScreen;
 			sourceTree = "<group>";
 		};
 		E67DA05C250169D300ED39EF /* Objects */ = {
@@ -249,6 +261,7 @@
 		E6DA022524FEE7F0001AE30D /* NEW */ = {
 			isa = PBXGroup;
 			children = (
+				E668EDD82502A73C00332ED8 /* SplashScreen */,
 				E62190E3250028C300B9B655 /* Shapes */,
 				E6DA022C24FEE915001AE30D /* Views */,
 				E6DA022924FEE8A0001AE30D /* Data */,
@@ -269,6 +282,7 @@
 			isa = PBXGroup;
 			children = (
 				E6DA022A24FEE8AC001AE30D /* Model.swift */,
+				E668EDD625028F7C00332ED8 /* NetworkApi.swift */,
 			);
 			path = Data;
 			sourceTree = "<group>";
@@ -423,6 +437,7 @@
 				E6DA022024FEE747001AE30D /* CustomShape.swift in Sources */,
 				E6DA021624FEE747001AE30D /* CardMiniature.swift in Sources */,
 				E6DA021524FEE747001AE30D /* FirstScreenCard.swift in Sources */,
+				E668EDDC2502A75C00332ED8 /* SplashScreen.swift in Sources */,
 				E6AF5A8B24D872CD00324465 /* ContentView.swift in Sources */,
 				E62190E5250028D200B9B655 /* RoundedShape.swift in Sources */,
 				E6DA021724FEE747001AE30D /* Cards.swift in Sources */,
@@ -432,6 +447,7 @@
 				E6DA021D24FEE747001AE30D /* DetailViewData.swift in Sources */,
 				E62190E025000E3900B9B655 /* Detail.swift in Sources */,
 				E6DA021424FEE747001AE30D /* CardFull.swift in Sources */,
+				E668EDD725028F7C00332ED8 /* NetworkApi.swift in Sources */,
 				E6DA021324FEE747001AE30D /* HomeView.swift in Sources */,
 				E67DA051250164BC00ED39EF /* Summary.swift in Sources */,
 				E6DA022424FEE747001AE30D /* ZodiacDataCell.swift in Sources */,

@@ -10,14 +10,15 @@ import SwiftUI
 struct Home: View {
     
     var animation : Namespace.ID
-    @Binding var selected : HoroscopeModel
+    @Binding var selected : HoroscopePreStatic
+    @Binding var apiHoroscope : HoroscopeModel?
     @Binding var show : Bool
     
     
     var body: some View {
         
         ScrollView(.vertical, showsIndicators: false) {
-          
+            
             VStack(alignment: .leading) {
                 
                 Text("Your way to the stars")
@@ -32,11 +33,11 @@ struct Home: View {
                     .fontWeight(.bold)
                     .foregroundColor(.primary)
                     .padding(.horizontal, 20.0)
-                    
+                
                 ForEach(cellsData) { horoscope in
                     
                     ZStack(alignment: Alignment(horizontal: .leading, vertical: .top)) {
-                     
+                        
                         RoundedRectangle(cornerRadius: 16, style: .continuous)
                             .stroke(Color.gray.opacity(0.25), lineWidth: 2)
                             .frame(width: .infinity, height: 82)
@@ -44,7 +45,7 @@ struct Home: View {
                             .padding(.bottom, 42.0)
                         
                         HStack(alignment: .center) {
-                        
+                            
                             VStack(alignment: .leading, spacing: 1) {
                                 
                                 Text("Zodiac sign")
@@ -52,7 +53,7 @@ struct Home: View {
                                     .fontWeight(.bold)
                                     .foregroundColor(.secondary)
                                 
-                                Text(horoscope.name ?? "")
+                                Text(horoscope.name)
                                     .font(.title2)
                                     .fontWeight(.bold)
                                     .foregroundColor(.primary)
@@ -65,31 +66,39 @@ struct Home: View {
                             .padding(.top, 0.0)
                             
                             Spacer()
-                        
+                            
                             VStack(alignment: .trailing) {
-                                Image(horoscope.image ?? "")
+                                Image(horoscope.image)
                                     .resizable()
                                     .aspectRatio(contentMode: .fill)
                                     .frame(width: 92, height: 88)
                                     .offset(x: 0, y: -15)
                                     .matchedGeometryEffect(id: horoscope.id, in: animation, properties: .frame, isSource: true)
-                                    
+                                
                             }
                             .padding(.trailing, 67.0)
                         }
                     }
                     .onTapGesture {
                         
-                        withAnimation(.spring()){
+                        NetworkApi.getHoroscope(sign: horoscope.name) { (horoscopeApi) in
                             
-                            selected = horoscope
-                            show.toggle()
+                            withAnimation(.spring()){
+                                
+                                selected = horoscope
+                                apiHoroscope = horoscopeApi
+                                show.toggle()
+                            }
                         }
                     }
                 }
             }
-            .background(Color.black)
+//            .background(Color.black)
+//            .background(LinearGradient(gradient: Gradient(colors: [Color("DarkBlue-1"), Color("DarkBlue-2")]), startPoint: .top, endPoint: .bottom))
+//                    .background(Color(red: 67 / 255, green: 67 / 255, blue: 67 / 255).edgesIgnoringSafeArea(.top))
+//            .background(Color.black.edgesIgnoringSafeArea(.bottom))
         }
+//        .preferredColorScheme(.dark)
     }
 }
 

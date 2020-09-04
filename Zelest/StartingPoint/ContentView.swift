@@ -10,14 +10,7 @@ import SwiftUI
 struct ContentView: View {
     var body: some View {
         
-        MainView()
-        
-//        HomeView(viewRouter: ViewRouter())
-        
-//        DetailView(viewRouter: ViewRouter())
-        
-//        prueba()
-        
+        SplashScreen()
     }
 }
 

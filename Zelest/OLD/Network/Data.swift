@@ -32,25 +32,25 @@ struct Horoscope: Identifiable, Codable {
 }
 
 class Api {
-    
+
     func getHoroscope(sing: String, completion: @escaping (Horoscope) -> ()) {
-        
+
         guard let url = URL(string: "https://aztro.sameerkumar.website/?sign=aries&day=today") else { return }
-        
+
         var urlRequest = URLRequest(url: url)
         urlRequest.httpMethod = "POST"
-        
+
         URLSession.shared.dataTask(with: urlRequest) { (data, response, error) in
-            
+
             if let data = data {
                 guard let horoscope = try? JSONDecoder().decode(Horoscope.self, from: data) else { return }
-                
+
                 debugPrint(horoscope)
-                
+
                 DispatchQueue.main.async {
                     completion(horoscope)
                 }
-                
+
             } else {
                 print("vacio")
             }
