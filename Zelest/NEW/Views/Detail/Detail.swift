@@ -15,6 +15,7 @@ struct Detail: View {
     var animation : Namespace.ID
     
     @State var isSummary: Bool = true
+    @State var isFirstButtonSelected: Bool = true
     
     
     
@@ -94,11 +95,13 @@ struct Detail: View {
                                 HStack {
                                     
                                     Button(action: {
+                                        self.isFirstButtonSelected = true
                                         withAnimation(.spring()){ isSummary = true }
                                     }) {
                                         
                                         Text("Summary")
-                                            .foregroundColor(.black)
+                                            .fontWeight(self.isFirstButtonSelected ? .bold : .regular)
+                                            .foregroundColor(self.isFirstButtonSelected ? .black : .gray)
                                             .padding()
                                             .background(Color.white)
                                     }
@@ -107,11 +110,13 @@ struct Detail: View {
                                     Spacer()
                                     
                                     Button(action: {
+                                        self.isFirstButtonSelected = false
                                         withAnimation(.spring()){ isSummary = false }
                                     }) {
                                         
                                         Text("Ruling planet")
-                                            .foregroundColor(.black)
+                                            .fontWeight(!self.isFirstButtonSelected ? .bold : .regular)
+                                            .foregroundColor(!self.isFirstButtonSelected ? .black : .gray)
                                             .padding()
                                             .background(Color.white)
                                     }
