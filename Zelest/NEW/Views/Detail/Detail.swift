@@ -105,7 +105,7 @@ struct Detail: View {
                                             .padding()
                                             .background(Color.white)
                                     }
-                                    .padding(.leading, 64.0)
+                                    .padding(.leading, 60.0)
                                     
                                     Spacer()
                                     
@@ -120,7 +120,7 @@ struct Detail: View {
                                             .padding()
                                             .background(Color.white)
                                     }
-                                    .padding(.trailing, 64.0)
+                                    .padding(.trailing, 60.0)
                                 }
                                 .padding(.top, 46.0)
                                 
