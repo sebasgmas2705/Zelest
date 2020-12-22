@@ -17,4 +17,4 @@ Here are some screenshots from the app:
 
 ## HOROSCOPE
 
-<img src="https://github.com/sebasgmas2705/Zelest/blob/master/Horoscope%20Detail1.jpg" width="35%">
+<img src="https://github.com/sebasgmas2705/Zelest/blob/master/Horoscope%20Detail1.png" width="35%">
