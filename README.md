@@ -7,3 +7,4 @@ I know it is not the best... but hope this helps anyone wanting to learn swiftUI
 
 Here are some screenshots from the app:
 
+![alt text](https://github.com/sebasgmas2705/Zelest/blob/master/Splash.jpg)
