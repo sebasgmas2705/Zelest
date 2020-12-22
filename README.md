@@ -7,14 +7,14 @@ I know it is not the best... but hope this helps anyone wanting to learn swiftUI
 
 Here are some screenshots from the app:
 
-## H2 SPLASH
+## SPLASH
 
 <img src="https://github.com/sebasgmas2705/Zelest/blob/master/Splash.jpg" width="35%">
 
-## H2 HOME
+## HOME
 
 <img src="https://github.com/sebasgmas2705/Zelest/blob/master/HOME%20-%20cell%20options.jpg" width="35%">
 
-## H2 HOROSCOPE
+## HOROSCOPE
 
 <img src="https://github.com/sebasgmas2705/Zelest/blob/master/Horoscope%20Detail.jpg" width="35%">
